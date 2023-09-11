@@ -1,0 +1,13 @@
+---
+layout: null
+sitemap: false
+---
+User-agent: *
+Sitemap: {{ "/sitemap.xml" | prepend: site.baseurl | prepend: site.url }}
+
+User-agent: CCBot
+Disallow: /
+User-agent: ChatGPT-User
+Disallow: /
+User-agent: GPTBot
+Disallow: /

@@ -1,0 +1,9 @@
+<p>{{ site.time | date: '%Y' }} &copy; <a href="{{ "/" | prepend: site.baseurl | prepend: site.url }}">{{ site.author }}</a> | Made with <a href="{{ site.repo }}">{{ site.name }}</a>{% if site.emoji %} {{ site.emoji }}{% endif %}</p>
+
+{% if site.goatcounter %}
+<script data-goatcounter="https://{{ site.goatcounter }}.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+<noscript>
+    <img src="https://{{ site.goatcounter }}.goatcounter.com/count?p=/ns">
+</noscript>
+{% endif %}

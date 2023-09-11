@@ -1,4 +1,4 @@
-<p>{{ site.time | date: '%Y' }} &copy; <a href="{{ "/" | prepend: site.baseurl | prepend: site.url }}">{{ site.author }}</a> | Made with <a href="{{ site.repo }}">{{ site.name }}</a>{% if site.emoji %} {{ site.emoji }}{% endif %}</p>
+<p>{{ site.time | date: '%Y' }} &copy; <a href="{{ "/" | prepend: site.baseurl | prepend: site.url }}">{{ site.author }}</a> | Made with <a href="{{ site.repo }}" target="_blank">{{ site.name }}</a>{% if site.emoji %} {{ site.emoji }}{% endif %}</p>
 
 {% if site.goatcounter %}
 <script data-goatcounter="https://{{ site.goatcounter }}.goatcounter.com/count"

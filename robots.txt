@@ -3,7 +3,7 @@ layout: null
 sitemap: false
 ---
 User-agent: *
-Sitemap: {{ "/sitemap.xml" | prepend: site.baseurl | prepend: site.url }}
+Sitemap: {{ site.url }}{{ site.baseurl }}/sitemap.xml
 
 User-agent: CCBot
 Disallow: /

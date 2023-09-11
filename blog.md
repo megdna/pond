@@ -5,7 +5,7 @@ title: Blog
 description: This is a list of posts.
 image: /assets/images/dog.jpg
 ---
-Subscribe to <a href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" target="_blank">feed</a>.
+<a class="button" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" target="_blank">Subscribe to feed</a>
 
 {% for post in site.posts %}
   <div class="blog-item">

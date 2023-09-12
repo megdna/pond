@@ -11,14 +11,14 @@
   /* Default (light) theme */
   --bg: #fff;
   --accent-bg: #E8F2FF;
-  --text: #001C30;
-  --text-light: #003B5E;
   --border: #008FDB;
   --accent: #0071AF;
-  --code: #DE0051;
-  --preformatted: #003B5E;
-  --marked: #FFE53E;
   --disabled: #C6E0FF;
+  --text: #001C30;
+  --text-light: #003B5E;
+  --preformatted: #003B5E;
+  --code: #DE0051;
+  --marked: #FFE53E;
 }
 
 /* Dark theme */
@@ -28,12 +28,14 @@
     color-scheme: dark;
     --bg: #001C30;
     --accent-bg: #003B5E;
+    --border: #0071AF;
+    --accent: #008FDB;
+    --disabled: #003B5E;
     --text: #E8F2FF;
     --text-light: #C6E0FF;
-    --accent: #0071AF;
-    --code: #DE0051;
-    --preformatted: #E8F2FF;
-    --disabled: #001C30;
+    --preformatted: #C6E0FF;
+    --code: #FF426C;
+    --marked: #FFF9E5;
   }
   /* Add a bit of transparency so light media isn't so glaring in dark mode */
   img,

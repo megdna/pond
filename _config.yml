@@ -2,19 +2,17 @@
 lang: en
 locale: en_US
 
+repo: "https://github.com/megdna/pond"
 url: "https://megdna.github.io"
 baseurl: "/pond"
-
-repo: "https://github.com/megdna/pond"
-name: Pond
 
 permalink: :title
 title: Pond
 description: Welcome to the Small Web
 
-author: Megan
+author: 
 emoji: 🐟
-goatcounter: meg
+goatcounter: git
 
 nav:
 - name: Home

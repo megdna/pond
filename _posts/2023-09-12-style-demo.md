@@ -225,20 +225,20 @@ To add a `nav` menu, just add the following to the `<header>` section of your si
 
 In Simple.css, images within the `main` element are always full width and have rounded edges to them. The `figcaption` element is also formatted in Simple.css. Here are examples of images with and without a caption:
 
-![A dog at an iPad](/assets/images/dog-ipad.jpg)
+![A dog at an iPad]({{ site.baseurl }}/assets/images/dog-ipad.jpg)
 
 <figure>
-  <img alt="This is a black swan" src="/assets/images/goose.jpg" />
+  <img alt="This is a black swan" src="{{ site.baseurl }}/assets/images/goose.jpg">
   <figcaption>This is a black swan</figcaption>
 </figure>
 
 ```
 # Standard image
-<img alt="A dog on an iPad" src="/assets/images/dog-ipad.jpg" />
+<img alt="A dog on an iPad" src="{{ site.baseurl }}/assets/images/dog-ipad.jpg">
 
 # Image with a caption
 <figure>
-  <img alt="This is a black swan" src="/assets/images/goose.jpg" />
+  <img alt="This is a black swan" src="{{ site.baseurl }}/assets/images/goose.jpg">
   <figcaption>This is a black swan</figcaption>
 </figure>
 ```

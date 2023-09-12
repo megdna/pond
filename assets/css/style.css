@@ -26,14 +26,14 @@
   :root,
   ::backdrop {
     color-scheme: dark;
-    --bg: #212121;
-    --accent-bg: #2b2b2b;
-    --text: #dcdcdc;
-    --text-light: #ababab;
-    --accent: #ffb300;
-    --code: #f06292;
-    --preformatted: #ccc;
-    --disabled: #111;
+    --bg: #001C30;
+    --accent-bg: #003B5E;
+    --text: #E8F2FF;
+    --text-light: #C6E0FF;
+    --accent: #0071AF;
+    --code: #DE0051;
+    --preformatted: #E8F2FF;
+    --disabled: #001C30;
   }
   /* Add a bit of transparency so light media isn't so glaring in dark mode */
   img,
@@ -531,7 +531,7 @@ mark {
 }
 
 mark a {
-  color: #0d47a1;
+  color: var(--accent);
 }
 
 img,

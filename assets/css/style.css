@@ -30,7 +30,7 @@
     --accent-bg: #003B5E;
     --border: #0071AF;
     --accent: #008FDB;
-    --disabled: #0071AF;
+    --disabled: #003B5E;
     --text: #E8F2FF;
     --text-light: #C6E0FF;
     --preformatted: #C6E0FF;
@@ -561,7 +561,7 @@ blockquote {
   margin-inline-end: 0;
   margin-block: 2rem;
   padding: 0.4rem 0.8rem;
-  border-inline-start: 0.35rem solid var(--disabled);
+  border-inline-start: 0.35rem solid var(--accent-bg);
   color: var(--text-light);
   font-style: italic;
 }

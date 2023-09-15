@@ -3,6 +3,6 @@ layout: page
 permalink: /
 title: Welcome!
 description: This is the home page.
-image: /assets/images/goose.jpg
+image: 
 ---
 Add some content here.

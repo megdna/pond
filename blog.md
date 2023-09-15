@@ -3,7 +3,7 @@ layout: page
 permalink: /blog
 title: Blog
 description: This is a list of posts.
-image: /assets/images/dog.jpg
+image: 
 ---
 <a class="button" href="{{ site.baseurl }}/feed.xml" target="_blank">Subscribe to feed</a>
 

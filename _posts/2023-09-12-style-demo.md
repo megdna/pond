@@ -2,7 +2,7 @@
 layout: post
 title: Style Demo
 description: This is a test post.
-image: /assets/images/dog.jpg
+image: 
 ---
 This page is a demonstration of the elements that can be formatted using Simple.css. Each section includes a code block on how to include it in your site's design.
 
@@ -219,28 +219,6 @@ To add a `nav` menu, just add the following to the `<header>` section of your si
   <a href="/guestbook">Guestbook</a>
   <a href="/contact">Contact</a>
 </nav>
-```
-
-## Images
-
-In Simple.css, images within the `main` element are always full width and have rounded edges to them. The `figcaption` element is also formatted in Simple.css. Here are examples of images with and without a caption:
-
-<img alt="A dog on an iPad" src="{{ site.baseurl }}/assets/images/dog.jpg">
-
-<figure>
-  <img alt="This is a black swan" src="{{ site.baseurl }}/assets/images/goose.jpg">
-  <figcaption>This is a black swan</figcaption>
-</figure>
-
-```
-# Standard image
-<img alt="A dog on an iPad" src="{{ site.baseurl }}/assets/images/dog.jpg">
-
-# Image with a caption
-<figure>
-  <img alt="This is a black swan" src="{{ site.baseurl }}/assets/images/goose.jpg">
-  <figcaption>This is a black swan</figcaption>
-</figure>
 ```
 
 ## Accordions

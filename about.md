@@ -3,6 +3,6 @@ layout: page
 permalink: /about
 title: About
 description: This is an introduction page.
-image: /assets/images/goose.jpg
+image: 
 ---
 Add some content here.

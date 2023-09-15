@@ -1,5 +1,7 @@
-### Jekyll ###
-_site
-.jekyll-metadata
-*-cache/
 .DS_Store
+.git
+.gitignore
+
+*-cache/
+.jekyll-metadata
+_site

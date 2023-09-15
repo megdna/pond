@@ -84,7 +84,7 @@ body > header {
   background-color: var(--accent-bg);
   border-bottom: 1px solid var(--border);
   text-align: center;
-  padding: 0 0.5rem 2rem 0.5rem;
+  padding: 0 0.5rem 0rem 0.5rem;
   grid-column: 1 / -1;
 }
 
@@ -100,7 +100,7 @@ body > header p {
 
 /* Add a little padding to ensure spacing is correct between content and header > nav */
 main {
-  padding-top: 1.5rem;
+  padding-top: 1rem;
 }
 
 body > footer {

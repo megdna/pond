@@ -1,7 +1,6 @@
-/* Global variables. */
+/* Global variables */
 :root,
 ::backdrop {
-  /* Set sans-serif & mono fonts */
   --sans-font: -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir,
     "Nimbus Sans L", Roboto, "Noto Sans", "Segoe UI", Arial, Helvetica,
     "Helvetica Neue", sans-serif;
@@ -13,7 +12,6 @@
   --accent-bg: #E8F2FF;
   --border: #008FDB;
   --accent: #0071AF;
-  --disabled: #C6E0FF;
   --text: #001C30;
   --text-light: #003B5E;
   --preformatted: #003B5E;
@@ -30,7 +28,6 @@
     --accent-bg: #003B5E;
     --border: #0071AF;
     --accent: #008FDB;
-    --disabled: #003B5E;
     --text: #E8F2FF;
     --text-light: #C6E0FF;
     --preformatted: #C6E0FF;
@@ -69,7 +66,7 @@ html {
 body {
   color: var(--text);
   background-color: var(--bg);
-  font-size: 1.15rem;
+  font-size: 1rem;
   line-height: 1.5;
   display: grid;
   grid-template-columns: 1fr min(45rem, 90%) 1fr;
@@ -119,14 +116,20 @@ h1 {
 
 h2 {
   font-size: 2.5rem;
+  margin-top: 0.5rem;
 }
 
 h3 {
   font-size: 2rem;
+  margin-top: 3rem;
 }
 
 h4 {
   font-size: 1.5rem;
+}
+
+p {
+  margin: 0.5rem 0;
 }
 
 /* Prevent long strings from overflowing container */

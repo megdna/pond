@@ -9,17 +9,23 @@ image:
 All the typography uses `rem` for sizing. This means that accessibility is maintained for those who change their browser font size.
 
 # Heading 1
+
 ## Heading 2
+
 ### Heading 3
+
 #### Heading 4
 
 **Bold**
+
 *Italic*
-_Underlined_
 
 [Link](https://example.com)
+
 <mark>Highlighted</mark>
+
 <kbd>Keyboard</kbd>
+
 
 ### Accordion
 
@@ -30,21 +36,34 @@ The `details` of this element are hidden behind a `summary`.
   <p>Some text.</p>
 </details>
 
+
 ### Article
 
 <article>
-<h4>This is an <code>article</code></h4>
+<b>This is an <code>article</code></b>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 </article>
+
 
 ### Aside
 
 <aside>
-<p>This is an <code>aside</code></p>
+<b>This is an <code>aside</code></b>
+<p>With some floating text.</p>
 </aside>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-### Block
+
+### Blockquote
+
+This is a `blockquote` with `cite`.
+
+> Friends don’t spy; true friendship is about privacy, too.
+>
+> <cite>– Stephen King</cite>
+
+
+### Code Block
 
 This can display a block of `code`.
 
@@ -62,22 +81,16 @@ This can display a block of `code`.
 </pre>
 ```
 
-### Blockquote
-
-This is a `blockquote` with `cite`.
-
-> Friends don’t spy; true friendship is about privacy, too.
->
-> <cite>– Stephen King</cite>
 
 ### Image
 
 This is an image inside a `figure` with `figcaption`.
 
 <figure>
-  <img alt="Colorful blue artwork" src="{{ baseurl }}/images/blue.jpg">
+  <img alt="Colorful blue artwork" src="{{ site.baseurl }}/images/blue.jpg">
   <figcaption>Two people in a boat on a lake</figcaption>
 </figure>
+
 
 ### Lists
 
@@ -91,22 +104,14 @@ Bulleted and numbered lists.
 2. Do that thing
 3. Do the other thing
 
-### Navigation
-
-This is a `nav` menu.
-
-<nav>
-  <a href="/">Home</a>
-  <a href="/about">About</a>
-  <a href="/blog">Blog</a>
-</nav>
 
 ### Section
 
 <section>
-<h4>This is a <code>section</code></h4>
+<b>This is a <code>section</code></b>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 </section>
+
 
 ### Table
 

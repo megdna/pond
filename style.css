@@ -251,6 +251,7 @@ box {
   border-radius: 5px;
   padding: 1.5rem;
   margin: 2rem 0;
+  width: 100%;
 }
 
 /* Use mono font for code elements */

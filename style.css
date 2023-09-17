@@ -138,12 +138,12 @@ h1 {
 
 h2 {
   font-size: 2.5rem;
-  margin-top: 0.5rem;
+  margin-top: 2rem;
 }
 
 h3 {
   font-size: 2rem;
-  margin-top: 0.5rem;
+  margin-top: 2rem;
 }
 
 h4 {
@@ -211,7 +211,7 @@ section h2:first-child {
   margin-top: 1rem;
 }
 
-aside, box, details, pre {
+aside, details, pre {
   background-color: var(--accent-bg);
   border: 1px solid var(--border);
   border-radius: var(--standard-border-radius);
@@ -243,15 +243,6 @@ cite {
   font-size: 0.9rem;
   color: var(--text-light);
   font-style: normal;
-}
-
-box {
-  background: var(--accent-bg);
-  border: 2px solid var(--border);
-  border-radius: 5px;
-  padding: 1.5rem;
-  margin: 2rem 0;
-  width: 100%;
 }
 
 /* Use mono font for code elements */
@@ -317,6 +308,14 @@ figcaption {
   font-size: 0.9rem;
   color: var(--text-light);
   margin-bottom: 1rem;
+}
+
+notice {
+  background: var(--accent-bg);
+  border: 2px solid var(--border);
+  border-radius: 5px;
+  padding: 1.5rem;
+  margin: 2rem 0;
 }
 
 section {

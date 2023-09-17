@@ -310,14 +310,6 @@ figcaption {
   margin-bottom: 1rem;
 }
 
-notice {
-  background: var(--accent-bg);
-  border: 2px solid var(--border);
-  border-radius: 5px;
-  padding: 1.5rem;
-  margin: 2rem 0;
-}
-
 section {
   border-top: 1px solid var(--border);
   border-bottom: 1px solid var(--border);
@@ -338,6 +330,14 @@ section:last-child {
 }
 
 /* Classes for blog */
+.notice {
+  background: var(--accent-bg);
+  border: 2px solid var(--border);
+  border-radius: 5px;
+  padding: 1.5rem;
+  margin: 2rem 0;
+}
+
 .post-link {
   font-size: 1.6rem;
   font-weight: bold;

@@ -22,25 +22,11 @@ All the typography uses `rem` for sizing. This means that accessibility is maint
 
 [Link](https://example.com)
 
-<mark>Highlighted</mark>
-
-<kbd>Keyboard</kbd>
-
-
-### Accordion
-
-The `details` of this element are hidden behind a `summary`.
-
-<details>
-  <summary>Summary</summary>
-  <p>Some text.</p>
-</details>
-
 
 ### Article
 
 <article>
-<b>This is an <code>article</code></b>
+<h4>This is an <code>article</code></hr>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 </article>
 
@@ -48,7 +34,7 @@ The `details` of this element are hidden behind a `summary`.
 ### Aside
 
 <aside>
-<b>This is an <code>aside</code></b>
+<h4>This is an <code>aside</code></h4>
 <p>With some floating text.</p>
 </aside>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -82,6 +68,16 @@ This can display a block of `code`.
 ```
 
 
+### Details/Summary
+
+The `details` of this element are hidden behind a `summary`.
+
+<details>
+  <summary>Summary</summary>
+  <p>Some text.</p>
+</details>
+
+
 ### Image
 
 This is an image inside a `figure` with `figcaption`.
@@ -108,19 +104,6 @@ Bulleted and numbered lists.
 ### Section
 
 <section>
-<b>This is a <code>section</code></b>
+<h4>This is a <code>section</code></h4>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 </section>
-
-
-### Table
-
-This is a `table`.
-
-| Name  |  Number |
-|---|---|
-| Jackie  | 012345  |
-| Lucy  | 112346  |
-| David  | 493029  |
-| Kerry  |  395499 |
-|  Steve | 002458  |

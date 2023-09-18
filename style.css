@@ -411,7 +411,7 @@ table caption {
 
 /* Classes for blog */
 .blog-item {
-  margin-bottom: 2rem;
+  margin: 2rem 0 2rem 0;
 }
 
 .post-link {

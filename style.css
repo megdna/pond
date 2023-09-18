@@ -130,13 +130,14 @@ body > footer {
   color: var(--text-light);
   font-size: 0.9rem;
   text-align: center;
-  margin-top: 1rem;
+  margin-top: 2rem;
   padding: 1rem 1rem 1rem 1rem;
 }
 
 footer > nav a {
   border: none;
   line-height: 1;
+  padding: 0 0.5rem 1rem 0.5rem;
   text-decoration: underline;
 }
 
@@ -411,7 +412,7 @@ table caption {
 
 /* Classes for blog */
 .blog-item {
-  margin: 2rem 0 2rem 0;
+  margin-top: 2rem;
 }
 
 .post-link {

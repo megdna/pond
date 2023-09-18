@@ -88,12 +88,12 @@ The `details` of this element are hidden behind a `summary`.
     * Item
     * Item
 
-1. Item 1
-2. Item 2
-  a. Item a
-  b. Item b
-    i. Item i
-    ii. Item ii
+1. Item
+2. Item
+    1. Item
+    2. Item
+        1. Item
+        2. Item
 
 
 ### Media
@@ -118,6 +118,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ### Table
 
 <table>
+<caption>Table Caption</caption>
 	<thead>
 	  <tr>
 		  <th>Table Heading 1</th>
@@ -158,4 +159,3 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 		</tr>
 	</tbody>
 </table>
-<caption>Table Caption</caption>

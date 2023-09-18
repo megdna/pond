@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Hello World!
-description: This is a blog post.
+title: Second Entry
+description: This is another post.
 image: /images/blue.jpg
 ---
 Add some content here.

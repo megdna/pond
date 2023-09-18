@@ -1,10 +1,11 @@
 ---
-layout: page
+layout: post
 permalink: /blog
 title: Blog
 description: This is a list of posts.
-image: 
+image: /images/blue.jpg
 ---
+<h4>Subscribe to <a href="{{ site.baseurl }}/feed" target="_blank">`Feed`</a></h4>
 {% for post in site.posts %}
   <div class="blog-item">
     <a class="post-link" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a>

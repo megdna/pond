@@ -1,8 +1,8 @@
 ---
-layout: page
+layout: post
 permalink: /
 title: Welcome!
 description: This is the home page.
-image: 
+image: /images/blue.jpg
 ---
-Add some content here.
+View some [styles]({{ site.baseurl}}/style) to add.

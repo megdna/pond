@@ -1,5 +1,11 @@
 <p>{{ site.time | date: '%Y' }} &copy; <a href="{{ site.repo }}" target="_blank">{{ site.title }}</a> {{ site.emoji }}</p>
 
+<nav>
+  {% for item in site.nav %}
+  <a href="{{ item.link | prepend: site.baseurl | prepend: site.url }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
+  {% endfor %}
+</nav>
+
 {% if site.goatcounter %}
 <script data-goatcounter="https://{{ site.goatcounter }}.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>

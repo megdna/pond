@@ -134,7 +134,7 @@ body > footer {
   padding: 1rem 1rem 2rem 1rem;
 }
 
-footer > nav a {
+footer > nav a, p {
   border: none;
   line-height: 1;
   padding: 0 0.25rem 0 0.25rem;

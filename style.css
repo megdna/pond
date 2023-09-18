@@ -135,10 +135,11 @@ body > footer {
 }
 
 footer > nav a {
-    border: none;
-    line-height: 1;
-    padding: 0;
-    text-decoration: underline;
+  border: none;
+  line-height: 1;
+  margin: 0 0.5rem 0 0.5rem;
+  padding: 0;
+  text-decoration: underline;
 }
 
 h1 {
@@ -428,4 +429,12 @@ table caption {
 nav a.current {
   color: var(--accent) !important;
   border-color: var(--accent) !important;
+}
+
+.notice {
+  background: var(--accent-bg);
+  border: 2px solid var(--border);
+  border-radius: 5px;
+  padding: 1.5rem;
+  margin: 2rem 0;
 }

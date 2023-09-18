@@ -2,6 +2,6 @@
 layout: default
 ---
 <h2>{{ page.title }}</h2>
-{% if page.description %}<pre>{{ page.description }}</pre>{% endif %}
-{% if page.date %}<p class="meta">Posted on {{ page.date | date_to_string }}</p>{% endif %}
+{% if page.description %}<p class="notice">{{ page.description }}</p>{% endif %}
+{% if page.date %}<p class="meta"><i>Posted on {{ page.date | date_to_string }}</i></p>{% endif %}
 {{ content }}

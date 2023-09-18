@@ -5,7 +5,7 @@ title: Blog
 description: This is a list of posts.
 image: /images/blue.jpg
 ---
-<p><mark>Subscribe to <a href="{{ site.baseurl }}/feed" target="_blank">Feed</a></mark></p>
+<p class="meta"><i>Subscribe to <a href="{{ site.baseurl }}/feed" target="_blank">Feed</a></i></p>
 
 {% for post in site.posts %}
   <div class="blog-item">

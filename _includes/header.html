@@ -1,5 +1,5 @@
 <h1>{{ site.emoji }} {{ site.title }}</h1>
-<p>{{ site.description }}</p>
+<p><i>{{ site.description }}</i></p>
 <nav>
   {% for item in site.nav %}
   <a href="{{ item.link | prepend: site.baseurl | prepend: site.url }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>

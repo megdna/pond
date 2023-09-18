@@ -66,7 +66,7 @@ body {
 }
 ```
 
-<pre>Some pre-formatted text</pre>
+<pre>Here is some pre-formatted text that does not wrap.</pre>
 
 
 ### Details/Summary
@@ -101,7 +101,7 @@ The `details` of this element are hidden behind a `summary`.
 This is an image inside a `figure` with `figcaption`.
 
 <figure>
-  <img src="https://placekitten.com/800/800" alt="Photo of kittens">
+  <img src="https://placekitten.com/800/800" alt="Photo of kitten(s)">
   <figcaption>Here is a caption for the photo.</figcaption>
 </figure>
 
@@ -117,45 +117,50 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ### Table
 
-<table>
-<caption>Table Caption</caption>
-	<thead>
-	  <tr>
-		  <th>Table Heading 1</th>
-			<th>Table Heading 2</th>
-			<th>Table Heading 3</th>
-			<th>Table Heading 4</th>
-			<th>Table Heading 5</th>
-		</tr>
-	</thead>
-	<tbody>
-	  <tr>
-		  <td>Table Cell 1</td>
-			<td>Table Cell 2</td>
-			<td>Table Cell 3</td>
-			<td>Table Cell 4</td>
-			<td>Table Cell 5</td>
-		</tr>
-	  <tr>
-		  <td>Table Cell 1</td>
-			<td>Table Cell 2</td>
-			<td>Table Cell 3</td>
-			<td>Table Cell 4</td>
-			<td>Table Cell 5</td>
-		</tr>
-	  <tr>
-		  <td>Table Cell 1</td>
-			<td>Table Cell 2</td>
-			<td>Table Cell 3</td>
-			<td>Table Cell 4</td>
-			<td>Table Cell 5</td>
-		</tr>
-	  <tr>
-		  <td>Table Cell 1</td>
-			<td>Table Cell 2</td>
-			<td>Table Cell 3</td>
-			<td>Table Cell 4</td>
-			<td>Table Cell 5</td>
-		</tr>
-	</tbody>
-</table>
+This is a `table` with overflow contained in a `figure`.
+
+<figure>
+  <table>
+    <caption>Table Title</caption>
+	  <thead>
+	    <tr>
+		    <th>Table Heading 1</th>
+			  <th>Table Heading 2</th>
+			  <th>Table Heading 3</th>
+			  <th>Table Heading 4</th>
+			  <th>Table Heading 5</th>
+		  </tr>
+	  </thead>
+	  <tbody>
+	    <tr>
+		    <td>Table Cell 1</td>
+			  <td>Table Cell 2</td>
+			  <td>Table Cell 3</td>
+			  <td>Table Cell 4</td>
+			  <td>Table Cell 5</td>
+		  </tr>
+	    <tr>
+		    <td>Table Cell 1</td>
+			  <td>Table Cell 2</td>
+			  <td>Table Cell 3</td>
+			  <td>Table Cell 4</td>
+			  <td>Table Cell 5</td>
+		  </tr>
+	    <tr>
+		    <td>Table Cell 1</td>
+			  <td>Table Cell 2</td>
+			  <td>Table Cell 3</td>
+			  <td>Table Cell 4</td>
+			  <td>Table Cell 5</td>
+		  </tr>
+	    <tr>
+		    <td>Table Cell 1</td>
+			  <td>Table Cell 2</td>
+			  <td>Table Cell 3</td>
+			  <td>Table Cell 4</td>
+			  <td>Table Cell 5</td>
+		  </tr>
+	  </tbody>
+  </table>
+  <figcaption>Table Caption</figcaption>
+</figure>

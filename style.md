@@ -10,58 +10,68 @@ image: /images/blue.jpg
 This is an `article` showing some basic styling inside. All the typography uses `rem` for sizing. This means that accessibility is maintained for those who change their browser font size.
 
 <article>
-# Heading 1
-
-## Heading 2
-
-### Heading 3
-
-#### Heading 4
-
-##### Heading 5
-
-###### Heading 6
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6>
 <hr>
-**Lists:**
-
-* Item
-* Item
-  * Item
-  * Item
-    * Item
-    * Item
-
-1. Item 1
-2. Item 2
-    a. Item a
-    b. Item b
-        i. Item i
-        ii. Item ii
-
+<p><b>Ordered List:</b></p>
+<ol type="1">
+  <li>List Item 1</li>
+  <li>List Item 2
+    <ol type="A">
+      <li>List Item 1</li>
+      <li>List Item 2</li>
+    </ol>
+        <ol type="a">
+          <li>List Item 1</li>
+          <li>List Item 2</li>
+        </ol>
+            <ol type="I">
+              <li>List Item 1</li>
+              <li>List Item 2</li>
+            </ol>
+                <ol type="i">
+                  <li>List Item 1</li>
+                  <li>List Item 2</li>
+                </ol>
+<p><b>Unordered List:</b></p>
+<ul>
+  <li>List Item 1</li>
+  <li>List Item 2</li>
+</ul>
+    <ul>
+      <li>List Item 1</li>
+      <li>List Item 2</li>
+    </ul>
+        <ul>
+          <li>List Item 1</li>
+          <li>List Item 2</li>
+        </ul>
+            <ul>
+              <li>List Item 1</li>
+              <li>List Item 2</li>
+            </ul>
+                <ul>
+                  <li>List Item 1</li>
+                  <li>List Item 2</li>
+                </ul>
 <hr>
-**Styles:**
-
-*Italic*
-
-<small>Small</small>
-
-<s>Strikethrough</s>
-
-Subscript: H<sub>2</sub>O
-
-Superscript<sup>1</sup>
-
-<u>Underlined</u>
-
-[URL](https://example.com)
-
-<abbr title="Uniform Resource Locator">URL</abbr> Abbreviated
-
-<mark>Highlighted</mark>
-
-<mark>Highlighted [URL](https://example.com)</mark>
-
-Keyboard: <kbd>Cmd</kbd>
+<p><b>Styles:</b></p>
+<p></p>
+<p><i>Italic</i></p>
+<p><small>Small</small></p>
+<p><s>Strikethrough</s></p>
+<p>Subscript: H<sub>2</sub>O</p>
+<p>Superscript<sup>1</sup></p>
+<p><u>Underlined</u></p>
+<p><a href="https://example.com" target="_blank">URL</a></p>
+<p><abbr title="Uniform Resource Locator">URL</abbr> Abbreviated</p>
+<p><mark>Highlighted</mark></p>
+<p><mark>Highlighted <a href="https://example.com" target="_blank">URL</a></mark></p>
+<p>Keyboard: <kbd>Cmd</kbd></p>
 </article>
 
 
@@ -70,9 +80,8 @@ Keyboard: <kbd>Cmd</kbd>
 This is an `aside` which floats to the right.
 
 <aside>
-**Title**
-
-Text
+<p><b>Lorem Ipsum</b></p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
 </aside>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
@@ -131,10 +140,10 @@ This is a `section` with some text.
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 </section>
 
+
 ### Table
 
 <table>
-  <caption>Table Caption</caption>
 	<thead>
 	  <tr>
 		  <th>Table Heading 1</th>
@@ -174,4 +183,5 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 			<td>Table Cell 5</td>
 		</tr>
 	</tbody>
+  <caption>Table Caption</caption>
 </table>

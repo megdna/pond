@@ -7,7 +7,7 @@ image: /images/blue.jpg
 ---
 ### Article
 
-This is an `article` showing some basic styling inside. All the typography uses `rem` for sizing. This means that accessibility is maintained for those who change their browser font size.
+This is an `article` showing some basic styling. All the typography uses `rem` for sizing. This means that accessibility is maintained for those who change their browser font size.
 
 <article>
 <h1>Heading 1</h1>
@@ -17,50 +17,7 @@ This is an `article` showing some basic styling inside. All the typography uses 
 <h5>Heading 5</h5>
 <h6>Heading 6</h6>
 <hr>
-<p><b>Ordered List:</b></p>
-<ol type="1">
-  <li>List Item 1</li>
-  <li>List Item 2
-    <ol type="A">
-      <li>List Item 1</li>
-      <li>List Item 2</li>
-    </ol>
-        <ol type="a">
-          <li>List Item 1</li>
-          <li>List Item 2</li>
-        </ol>
-            <ol type="I">
-              <li>List Item 1</li>
-              <li>List Item 2</li>
-            </ol>
-                <ol type="i">
-                  <li>List Item 1</li>
-                  <li>List Item 2</li>
-                </ol>
-<p><b>Unordered List:</b></p>
-<ul>
-  <li>List Item 1</li>
-  <li>List Item 2</li>
-</ul>
-    <ul>
-      <li>List Item 1</li>
-      <li>List Item 2</li>
-    </ul>
-        <ul>
-          <li>List Item 1</li>
-          <li>List Item 2</li>
-        </ul>
-            <ul>
-              <li>List Item 1</li>
-              <li>List Item 2</li>
-            </ul>
-                <ul>
-                  <li>List Item 1</li>
-                  <li>List Item 2</li>
-                </ul>
-<hr>
-<p><b>Styles:</b></p>
-<p></p>
+<p><b>Bold</b></p>
 <p><i>Italic</i></p>
 <p><small>Small</small></p>
 <p><s>Strikethrough</s></p>
@@ -120,6 +77,23 @@ The `details` of this element are hidden behind a `summary`.
   <summary>Summary</summary>
   Some text
 </details>
+
+
+### Lists
+
+* Item
+* Item
+  * Item
+  * Item
+    * Item
+    * Item
+
+1. Item 1
+2. Item 2
+    a. Item a
+    b. Item b
+        i. Item i
+        ii. Item ii
 
 
 ### Media

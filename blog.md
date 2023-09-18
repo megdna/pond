@@ -6,6 +6,7 @@ description: This is a list of posts.
 image: /images/blue.jpg
 ---
 <p><mark>Subscribe to <a href="{{ site.baseurl }}/feed" target="_blank">Feed</a></mark></p>
+
 {% for post in site.posts %}
   <div class="blog-item">
     <a class="post-link" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a>

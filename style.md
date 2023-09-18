@@ -90,10 +90,10 @@ The `details` of this element are hidden behind a `summary`.
 
 1. Item 1
 2. Item 2
-    a. Item a
-    b. Item b
-        i. Item i
-        ii. Item ii
+  a. Item a
+  b. Item b
+    i. Item i
+    ii. Item ii
 
 
 ### Media
@@ -157,5 +157,5 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 			<td>Table Cell 5</td>
 		</tr>
 	</tbody>
-  <caption>Table Caption</caption>
 </table>
+<caption>Table Caption</caption>

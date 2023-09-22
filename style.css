@@ -376,8 +376,8 @@ figcaption {
 section {
   border-top: 1px solid var(--border);
   border-bottom: 1px solid var(--border);
-  margin: 3rem 0;
-  padding: 2rem 1rem;
+  margin: 1.5rem 0;
+  padding: 1.5rem 1rem;
 }
 
 /* Don't double separators when chaining sections */
@@ -394,7 +394,7 @@ section:last-child {
 
 table {
   border-collapse: collapse;
-  margin: 1.5rem 0;
+  margin: 1rem 0;
 }
 
 td, th {
@@ -414,7 +414,7 @@ tr:nth-child(even) {
 
 table caption {
   font-weight: bold;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 /* Classes for blog */

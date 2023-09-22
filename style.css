@@ -414,7 +414,7 @@ tr:nth-child(even) {
 
 table caption {
   font-weight: bold;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 /* Classes for blog */

@@ -15,7 +15,7 @@
   --text: #001C30;
   --text-light: #003B5E;
   --preformatted: #003B5E;
-  --code: #DE0051;
+  --code: #AC5C00;
   --marked: #ffe53e;
 }
 
@@ -31,7 +31,7 @@
     --text: #E8F2FF;
     --text-light: #C6E0FF;
     --preformatted: #C6E0FF;
-    --code: #FF426C;
+    --code: #D57300;
     --marked: #fff9e5;
   }
   /* Add some transparency to reduce glare in dark mode */

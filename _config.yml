@@ -1,25 +1,23 @@
-# SEO Stuff
-lang: en
-
-repo: "https://github.com/megdna/pond"
-url: "https://megdna.github.io"
-baseurl: "/pond"
-
-permalink: :title
+# Site Settings
 title: Pond
 description: Welcome to the Small Web
+url: "https://megdna.github.io"
+baseurl: "/pond"
+permalink: :title
 
-author: 
-emoji: 🐟
-goatcounter: git
+author: Megan
+github: megdna
+goatcounter: meg
+icon: 🐟
+lang: en
 
 nav:
-- name: Home
-  link: /
-- name: About
-  link: /about
-- name: Blog
-  link: /blog
+  - name: Home
+    link: /
+  - name: About
+    link: /about
+  - name: Blog
+    link: /blog
   
 plugins:
   - jekyll-feed

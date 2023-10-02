@@ -277,14 +277,14 @@ aside, details, pre {
 }
 
 aside {
-  float: right;
+  float: left;
   font-size: 1rem;
   margin-inline-start: 15px;
   padding: 0 15px;
   width: 30%;
 }
-*[dir="rtl"] aside {
-  float: left;
+*[dir="ltr"] aside {
+  float: right;
 }
 
 blockquote {

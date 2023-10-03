@@ -261,7 +261,7 @@ article {
   border: 1px solid var(--border);
   border-radius: var(--standard-border-radius);
   margin-bottom: 1rem;
-  padding: 1rem;
+  padding: 0 1rem;
 }
 
 article h2:first-child,
@@ -419,7 +419,7 @@ table caption {
 
 /* Classes for blog */
 .blog-item {
-  margin-top: 0.5rem;
+  margin-top: 1rem;
 }
 
 .post-link {

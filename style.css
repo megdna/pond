@@ -122,16 +122,12 @@ header > nav a[aria-current="page"] {
   cursor: pointer;
 }
 
-main {
-  padding-top: 0.5rem;
-}
-
 body > footer {
   border-top: 1px solid var(--border);  
   color: var(--text-light);
   font-size: 0.9rem;
   text-align: center;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
   padding: 1rem 1rem 1.5rem 1rem;
 }
 
@@ -260,13 +256,8 @@ sup {
 article {
   border: 1px solid var(--border);
   border-radius: var(--standard-border-radius);
-  margin-bottom: 1.5rem;
-  padding: 0.5rem 1rem;
-}
-
-article h2:first-child,
-section h2:first-child {
-  margin-top: 1rem;
+  margin: 1.5rem 0;
+  padding: 1rem;
 }
 
 aside, details, pre {
@@ -441,6 +432,6 @@ nav a.current {
   background: var(--accent-bg);
   border: 2px solid var(--border);
   border-radius: 5px;
-  padding: 1rem;
   margin: 1.5rem 0;
+  padding: 1rem;
 }

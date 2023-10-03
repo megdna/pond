@@ -279,8 +279,8 @@ aside, details, pre {
 aside {
   float: left;
   font-size: 1rem;
-  margin-inline-end: 15px;
-  padding: 0 15px;
+  margin-inline-end: 1rem;
+  padding: 0 1rem;
   width: 30%;
 }
 *[dir="ltr"] aside {

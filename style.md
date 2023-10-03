@@ -34,7 +34,7 @@ This is an `article` showing some basic styling. All the typography uses `rem` f
 
 ### Aside
 
-This is an `aside` which floats to the right.
+This is an `aside` which floats to the left.
 
 <aside>
 <p><b>Lorem Ipsum</b></p>

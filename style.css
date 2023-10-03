@@ -189,14 +189,14 @@ h6 {
 }
 
 /* Special elements */
-article, aside, description, details, pre {
+article, aside, details, pre {
   border: 2px solid var(--border);
   border-radius: 5px;
   margin: 1.5rem 0;
   padding: 1rem;
 }
 
-aside, description, details, pre {
+aside, details, pre {
   background-color: var(--bg-box);
 }
 
@@ -231,11 +231,6 @@ code, kbd, pre {
 pre {
   max-width: 100%;
   overflow: auto;
-}
-
-description {
-  max-width: 100%;
-  overflow: none;
 }
 
 details {
@@ -311,4 +306,13 @@ tr:nth-child(even) {
 table caption {
   font-weight: bold;
   margin-bottom: 0.5rem;
+}
+
+/* Classes */
+.notice {
+  background-color: var(--bg-box);
+  border: 2px solid var(--border);
+  border-radius: 5px;
+  margin: 1.5rem 0;
+  padding: 1rem;
 }

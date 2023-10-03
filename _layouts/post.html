@@ -3,5 +3,5 @@ layout: default
 ---
 <h2>{{ page.title }}</h2>
 {% if page.description %}<p class="notice">{{ page.description }}</p>{% endif %}
-{% if page.date %}<p class="meta"><i>Posted on {{ page.date | date_to_string }}</i></p>{% endif %}
+{% if page.date %}<cite>Posted on {{ page.date | date_to_string }}</cite>{% endif %}
 {{ content }}

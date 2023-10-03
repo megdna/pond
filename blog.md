@@ -2,10 +2,9 @@
 layout: post
 permalink: /blog
 title: Blog
-description: This is a list of posts.
 image: /images/blue.jpg
 ---
-<p><i>Subscribe to <a href="{{ site.baseurl }}/feed" target="_blank">Feed</a></i></p>
+<div class="notice">Subscribe to <a href="{{ site.baseurl }}/feed" target="_blank">Feed</a></div>
 
 {% for post in site.posts %}
 <article>

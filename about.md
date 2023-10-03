@@ -12,7 +12,7 @@ image: /images/blue.jpg
 </article>
 
 <article>
-<p><b>Project 2</b></p>
-<p><i>Another Tagline</i></p>
+<h4>Project 2</h4>
+<p class="meta"><i>Another Tagline</i></p>
 <p>Some more information about the project.</p>
 </article>

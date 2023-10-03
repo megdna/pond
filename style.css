@@ -279,7 +279,7 @@ aside, details, pre {
 aside {
   float: left;
   font-size: 1rem;
-  margin-inline-start: 15px;
+  margin-inline-end: 15px;
   padding: 0 15px;
   width: 30%;
 }

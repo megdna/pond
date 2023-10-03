@@ -257,7 +257,7 @@ article {
   border: 1px solid var(--border);
   border-radius: var(--standard-border-radius);
   margin: 1.5rem 0;
-  padding: 0.5rem 1rem;
+  padding: 0 1rem 0.5rem 1rem;
 }
 
 aside, details, pre {
@@ -408,24 +408,10 @@ table caption {
   margin-bottom: 0.5rem;
 }
 
-/* Classes for blog */
-.blog-item {
-  margin-top: 0.5rem;
-}
-
-.post-link {
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
+/* Classes */
 .meta {
   color: var(--text-light);
   font-size: 0.9rem;
-}
-
-nav a.current {
-  color: var(--accent) !important;
-  border-color: var(--accent) !important;
 }
 
 .notice {

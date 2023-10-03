@@ -103,16 +103,16 @@ body > footer {
   color: var(--meta);
   font-size: 0.9rem;
   margin-top: 1rem;
-  padding: 0.5rem;
+  padding: 0 0.5rem 1rem 0.5rem;
   text-align: center;
 }
 
 body > footer p {
-  margin: 0.5rem auto;
+  margin-top: 1rem;
 }
 
 footer > nav a {
-  padding: 0.5rem 0.25rem 1rem 0.25rem;
+  padding: 1rem 0.25rem;
 }
 
 a, a:visited {
@@ -128,11 +128,11 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 h1, h2, h3 {
-  margin: 1.5rem 0;
+  margin-top: 1.5rem;
 }
 
 p, h4, h5, h6 {
-  margin: 1rem 0;
+  margin-top: 1rem;
 }
 
 h1 {
@@ -190,17 +190,21 @@ h6 {
 article, aside, details, pre {
   border: 2px solid var(--border);
   border-radius: 5px;
-  margin: 1.5rem 0;
-  padding: 1rem;
+  padding: 0 1rem 1rem 1rem;
 }
 
 aside, details, pre {
   background-color: var(--bg-box);
 }
 
+article {
+  margin-top: 1.5rem;
+}
+
 aside {
   float: right;
   margin-inline-start: 1rem;
+  margin-bottom: 1rem;
   width: 30%;
 }
 *[dir="rtl"] aside {
@@ -227,11 +231,13 @@ code, kbd, pre {
 }
 
 pre {
+  margin-top: 1.5rem;
   max-width: 100%;
   overflow: auto;
 }
 
 details {
+  margin-top: 1.5rem;
   padding: 0.5rem 1rem;
 }
 
@@ -259,7 +265,7 @@ hr {
   background: var(--border);
   border: none;
   height: 1px;
-  margin: 1rem auto;
+  margin-top: 1rem;
 }
 
 img, video {
@@ -270,7 +276,7 @@ img, video {
 
 figure {
   display: block;
-  margin: 0; 
+  margin-top: 1rem; 
   overflow-x: auto;
 }
 
@@ -283,7 +289,7 @@ figcaption {
 
 table {
   border-collapse: collapse;
-  margin: 0.5rem 0;
+  margin-top: 0.5rem;
 }
 
 td, th {
@@ -311,6 +317,6 @@ table caption {
   background: var(--bg-box);
   border: 2px solid var(--border);
   border-radius: 5px;
-  margin: 1.5rem 0;
+  margin-top: 1.5rem;
   padding: 1rem;
 }

@@ -6,8 +6,8 @@ description: This is an introduction page.
 image: /images/blue.jpg
 ---
 <article>
-<p><b>Project 1</b></p>
-<p><i>A Short Tagline</i></p>
+<h4>Project 1</h4>
+<p class="meta"><i>A Short Tagline</i></p>
 <p>A longer description about the project.</p>
 </article>
 

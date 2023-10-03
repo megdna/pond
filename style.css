@@ -193,10 +193,15 @@ article, aside, details, notice, pre {
   border: 2px solid var(--border);
   border-radius: 5px;
   margin: 1.5rem 0;
+  padding: 1rem;
 }
 
 aside, details, notice, pre {
   background-color: var(--bg-box);
+}
+
+article {
+  width: 100%;
 }
 
 aside {

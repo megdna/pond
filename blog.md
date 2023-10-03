@@ -8,10 +8,8 @@ image: /images/blue.jpg
 
 {% for post in site.posts %}
 <article>
-  <div class="blog-item">
-    <a class="post-link" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a>
-    <p><i>{{ post.description }}</i></p>
-    <p class="meta">{{ post.date | date_to_string }}</p>
-  </div>
+  <h4><a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a></h4>
+  <p><i>{{ post.description }}</i></p>
+  <p class="meta">{{ post.date | date_to_string }}</p>
 </article>
 {% endfor %}

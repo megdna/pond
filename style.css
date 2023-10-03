@@ -257,7 +257,7 @@ article {
   border: 1px solid var(--border);
   border-radius: var(--standard-border-radius);
   margin: 1.5rem 0;
-  padding: 1rem;
+  padding: 0.5rem 1rem;
 }
 
 aside, details, pre {

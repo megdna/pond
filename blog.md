@@ -4,7 +4,7 @@ permalink: /blog
 title: Blog
 image: /images/blue.jpg
 ---
-<notice>Subscribe to <a href="{{ site.baseurl }}/feed" target="_blank">Feed</a></notice>
+<description>Subscribe to <a href="{{ site.baseurl }}/feed" target="_blank">Feed</a></description>
 
 {% for post in site.posts %}
 <article>

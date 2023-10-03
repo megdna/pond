@@ -189,19 +189,15 @@ h6 {
 }
 
 /* Special elements */
-article, aside, details, notice, pre {
+article, aside, description, details, pre {
   border: 2px solid var(--border);
   border-radius: 5px;
   margin: 1.5rem 0;
   padding: 1rem;
 }
 
-aside, details, notice, pre {
+aside, description, details, pre {
   background-color: var(--bg-box);
-}
-
-article {
-  width: 100%;
 }
 
 aside {
@@ -235,6 +231,10 @@ code, kbd, pre {
 pre {
   max-width: 100%;
   overflow: auto;
+}
+
+description {
+  width: 100%;
 }
 
 details {

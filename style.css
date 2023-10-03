@@ -1,22 +1,16 @@
 /* Global variables */
 :root,
 ::backdrop {
-  --sans-font: -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir,
-    "Nimbus Sans L", Roboto, "Noto Sans", "Segoe UI", Arial, Helvetica,
-    "Helvetica Neue", sans-serif;
-  --mono-font: Consolas, Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
-  --standard-border-radius: 5px;
+  --mono-font: "Andale Mono", Consolas, Menlo, Monaco, monospace, "Ubuntu Mono";
+  --sans-font: -apple-system, Arial, Avenir, "Avenir Next", BlinkMacSystemFont, Helvetica, "Helvetica Neue", "Nimbus Sans L", "Noto Sans", Roboto, sans-serif, "Segoe UI";
 
   /* Default (light) theme */
-  --bg: #fff;
-  --accent-bg: #E8F2FF;
+  --bg: #FFFFFF;
+  --bg-box: #E8F2FF;
   --border: #008FDB;
-  --accent: #0071AF;
+  --link: #0071AF;
+  --meta: #003B5E;
   --text: #001C30;
-  --text-light: #003B5E;
-  --preformatted: #003B5E;
-  --code: #AC5C00;
-  --marked: #ffe53e;
 }
 
 /* Dark theme */
@@ -25,14 +19,11 @@
   ::backdrop {
     color-scheme: dark;
     --bg: #001C30;
-    --accent-bg: #003B5E;
+    --bg-box: #003B5E;
     --border: #0071AF;
-    --accent: #008FDB;
+    --link: #008FDB;
+    --meta: #C6E0FF;
     --text: #E8F2FF;
-    --text-light: #C6E0FF;
-    --preformatted: #C6E0FF;
-    --code: #D57300;
-    --marked: #fff9e5;
   }
   /* Add some transparency to reduce glare in dark mode */
   img,
@@ -47,8 +38,8 @@ html {
 }
 
 body {
-  color: var(--text);
   background-color: var(--bg);
+  color: var(--text);
   font-size: 1rem;
   line-height: 1.5;
   margin: 0;  
@@ -60,83 +51,90 @@ body > * {
 }
 
 body > header {
-  background-color: var(--accent-bg);
-  border-bottom: 1px solid var(--border);
-  padding: 0 0.5rem 0.5rem 0.5rem;
+  background-color: var(--bg-box);
+  border-bottom: 2px solid var(--border);
+  padding: 0.5rem;
   text-align: center;
   grid-column: 1 / -1;
 }
 
 body > header h1 {
-  max-width: 1200px;
   margin: 0.5rem auto;
+  max-width: 1200px;
 }
 
 body > header p {
   font-size: 1.15rem;
-  max-width: 40rem;
   margin: 0.5rem auto;
+  max-width: 40rem;
 }
 
 header > nav {
   font-size: 1rem;
   line-height: 2;
-  padding: 0.5rem 0 0 0;
-}
-
-/* Use flexbox to allow items to wrap as needed */
-header > nav ul,
-header > nav ol {
-  align-content: space-around;
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-header > nav ul li,
-header > nav ol li {
-  display: inline-block;
+  margin: 0.5rem auto;
 }
 
 header > nav a,
 header > nav a:visited {
-  border: 1px solid var(--border);
-  border-radius: var(--standard-border-radius);
+  border: 2px solid var(--border);
+  border-radius: 5px;
   color: var(--text);
   display: inline-block;
+  padding: 0 0.5rem;
   text-decoration: none;
-  margin: 0 0.5rem 1rem 0.5rem;
-  padding: 0.1rem 1rem;
 }
 
 header > nav a:hover,
 header > nav a.current,
 header > nav a[aria-current="page"] {
-  border-color: var(--accent);
-  color: var(--accent);
+  border-color: var(--link);
+  color: var(--link);
   cursor: pointer;
 }
 
+main {
+  padding: 0.5rem 0;
+}
+
 body > footer {
-  border-top: 1px solid var(--border);  
-  color: var(--text-light);
+  border-top: 2px solid var(--border);  
+  color: var(--meta);
   font-size: 0.9rem;
+  padding: 0.5rem 0;
   text-align: center;
-  margin-top: 1.5rem;
-  padding: 1rem 1rem 1.5rem 1rem;
 }
 
 body > footer p {
   margin: 0.5rem auto;
 }
 
+footer > nav {
+  margin: 0.5rem auto;
+}
+
 footer > nav a {
-  padding: 0 0.25rem 0 0.25rem;
+  padding: 0 0.25rem;
+}
+
+a, a:visited {
+  color: var(--link);
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+h1, h2, h3 {
+  margin: 1.5rem 0;
+}
+
+p, h4, h5, h6 {
+  margin: 1rem 0;
 }
 
 h1 {
@@ -161,19 +159,6 @@ h5 {
 
 h6 {
   font-size: 0.8rem;
-}
-
-p, h1, h2, h3, h4, h5, h6 {
-  overflow-wrap: break-word;
-}
-
-h1, h2, h3 {
-  line-height: 1.1;
-  margin: 2rem 0 1.5rem 0;
-}
-
-p, h4, h5, h6 {
-  margin: 1rem 0;
 }
 
 /* Reduce header size on mobile */
@@ -203,133 +188,59 @@ p, h4, h5, h6 {
   }
 }
 
-a, a:visited {
-  color: var(--accent);
-}
-
-a:hover {
-  text-decoration: none;
-}
-
-abbr[title] {
-  cursor: help;
-  text-decoration-line: underline;
-  text-decoration-style: dotted;
-}
-
-dt {
-    color: var(--text-light);
-}
-
-hr {
-  background: var(--border);
-  border: none;
-  height: 1px;
-  margin: 1rem auto;
-}
-
-mark {
-  background-color: var(--marked);
-  border-radius: var(--standard-border-radius);
-  color: #001C30;
-  padding: 2px 5px;
-}
-
-mark a {
-  color: #0071AF;
-}
-
-sub, sup {
-  position: relative;
-  vertical-align: baseline;
-}
-
-sub { 
-  top: 0.3em; 
-}
-
-sup {
-  top: -0.4em;
-}
-
 /* Special elements */
-article {
-  border: 1px solid var(--border);
-  border-radius: var(--standard-border-radius);
+article, aside, details, notice, pre {
+  border: 2px solid var(--border);
+  border-radius: 5px;
   margin: 1.5rem 0;
-  padding: 0 1rem 0.5rem 1rem;
 }
 
-aside, details, pre {
-  background-color: var(--accent-bg);
-  border: 1px solid var(--border);
-  border-radius: var(--standard-border-radius);
-  margin-bottom: 1rem;
+aside, details, notice, pre {
+  background-color: var(--bg-box);
 }
 
 aside {
-  float: left;
-  font-size: 1rem;
-  margin-inline-end: 1rem;
-  padding: 0 1rem;
+  float: right;
+  margin-inline-start: 1rem;
   width: 30%;
 }
-*[dir="ltr"] aside {
-  float: right;
+*[dir="rtl"] aside {
+  float: left;
 }
 
 blockquote {
-  color: var(--text-light);
-  font-style: italic;
-  border-inline-start: 0.35rem solid var(--accent);
+  border-inline-start: 0.25rem solid var(--link);
   margin-inline-start: 1rem;
   margin-inline-end: 0;
-  margin-block: 1rem;
-  padding: 0 0.8rem;
+  margin-block: 1.5rem;
+  padding: 0 0.5rem;
 }
 
 cite {
-  color: var(--text-light);
+  color: var(--meta);
   font-size: 0.9rem;
-  font-style: normal;
+  font-style: italic;
 }
 
-code, kbd, pre, pre span, samp {
-  color: var(--code);
+code, kbd, pre {
+  color: var(--meta);
   font-family: var(--mono-font);
 }
 
-kbd {
-  border: 1px solid var(--preformatted);
-  border-bottom: 3px solid var(--preformatted);
-  border-radius: var(--standard-border-radius);
-  color: var(--preformatted);
-  padding: 0.1rem 0.4rem;
-}
-
 pre {
-  color: var(--preformatted);
   max-width: 100%;
   overflow: auto;
-  padding: 1rem 1rem;
-}
-
-pre code {
-  color: var(--preformatted);
-  background: none;
-  margin: 0;
-  padding: 0;
 }
 
 details {
-  padding: 0.7rem 1rem;
+  padding: 0.5rem 1rem;
 }
 
 summary {
   cursor: pointer;
   font-weight: bold;
-  margin: -0.7rem -1rem;
-  padding: 0.7rem 1rem;
+  margin: -0.5rem -1rem;
+  padding: 0.5rem 1rem;
   word-break: break-all;
 }
 
@@ -345,8 +256,15 @@ details[open] > :last-child {
   margin-bottom: 0;
 }
 
+hr {
+  background: var(--border);
+  border: none;
+  height: 1px;
+  margin: 1rem auto;
+}
+
 img, video {
-  border-radius: var(--standard-border-radius);
+  border-radius: 5px;
   height: auto;
   max-width: 100%;
 }
@@ -358,29 +276,10 @@ figure {
 }
 
 figcaption {
-  color: var(--text-light);
+  color: var(--meta);
   font-size: 0.9rem;
-  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
   text-align: center;
-}
-
-section {
-  border-top: 1px solid var(--border);
-  border-bottom: 1px solid var(--border);
-  margin: 1.5rem 0;
-  padding: 1.5rem 1rem;
-}
-
-/* Don't double separators when chaining sections */
-section + section,
-section:first-child {
-  border-top: 0;
-  padding-top: 0;
-}
-
-section:last-child {
-  border-bottom: 0;
-  padding-bottom: 0;
 }
 
 table {
@@ -395,29 +294,15 @@ td, th {
 }
 
 th {
-  background-color: var(--accent-bg);
+  background-color: var(--bg-box);
   font-weight: bold;
 }
 
 tr:nth-child(even) {
-  background-color: var(--accent-bg);
+  background-color: var(--bg-box);
 }
 
 table caption {
   font-weight: bold;
   margin-bottom: 0.5rem;
-}
-
-/* Classes */
-.meta {
-  color: var(--text-light);
-  font-size: 0.9rem;
-}
-
-.notice {
-  background: var(--accent-bg);
-  border: 2px solid var(--border);
-  border-radius: 5px;
-  margin: 1.5rem 0;
-  padding: 1rem;
 }

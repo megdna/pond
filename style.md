@@ -31,17 +31,15 @@ This is an `article` showing some basic styling. All the typography uses `rem` f
 <p>Keyboard: <kbd>Cmd</kbd></p>
 </article>
 
-
 ### Aside
 
-This is an `aside` which floats to the left.
+This is an `aside` which floats to the right.
 
 <aside>
 <p><b>Lorem Ipsum</b></p>
 <p><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit</i></p>
 </aside>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
 
 ### Blockquote
 
@@ -51,23 +49,21 @@ This is a `blockquote` with a `cite`.
 >
 > <cite>Anonymous</cite>
 
-
 ### Code Block
 
 This can display a block of `code` using `pre`.
 
 ```
 body {
-  color: var(--text);
   background: var(--bg);
-  font-size: 1.15rem;
+  color: var(--text);
+  font-size: 1rem;
   line-height: 1.5;
   margin: 0;
 }
 ```
 
 <pre>Here is some pre-formatted text that does not wrap.</pre>
-
 
 ### Details/Summary
 
@@ -77,7 +73,6 @@ The `details` of this element are hidden behind a `summary`.
   <summary>Summary</summary>
   Some text
 </details>
-
 
 ### Lists
 
@@ -95,7 +90,6 @@ The `details` of this element are hidden behind a `summary`.
         1. Item
         2. Item
 
-
 ### Media
 
 This is an image inside a `figure` with `figcaption`.
@@ -104,16 +98,6 @@ This is an image inside a `figure` with `figcaption`.
   <img src="https://placekitten.com/800/800" alt="Photo of kitten(s)">
   <figcaption>Here is a caption for the photo.</figcaption>
 </figure>
-
-
-### Section
-
-This is a `section` with some text.
-
-<section>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-</section>
-
 
 ### Table
 

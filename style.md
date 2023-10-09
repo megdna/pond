@@ -7,9 +7,12 @@ image: /images/blue.jpg
 ---
 ### Article
 
-This is an `article` showing some basic styling. All the typography uses `rem` for sizing. This means that accessibility is maintained for those who change their browser font size.
+This is an `article` showing some basic styling.
 
 <article>
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
 <h4>Heading 4</h4>
 <h5>Heading 5</h5>
 <h6>Heading 6</h6>
@@ -73,19 +76,29 @@ The `details` of this element are hidden behind a `summary`.
 
 ### Lists
 
-* Item
-* Item
-  * Item
-  * Item
-    * Item
-    * Item
+<p><u>Description</u></p>
+<dl>
+  <dt>Item</dt>
+  <dd>Description</dd>
+  <dt>Item</dt>
+  <dd>Description</dd>
+</dl> 
 
+<p><u>Ordered</u></p>
 1. Item
 2. Item
     1. Item
     2. Item
         1. Item
         2. Item
+
+<p><u>Unordered</u></p>
+* Item
+* Item
+  * Item
+  * Item
+    * Item
+    * Item
 
 ### Media
 

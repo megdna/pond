@@ -1,10 +1,16 @@
-/* Global variables */
-:root,
-::backdrop {
-  --mono-font: "Andale Mono", Consolas, Menlo, Monaco, monospace, "Ubuntu Mono";
-  --sans-font: -apple-system, Arial, Avenir, "Avenir Next", BlinkMacSystemFont, Helvetica, "Helvetica Neue", "Nimbus Sans L", "Noto Sans", Roboto, sans-serif, "Segoe UI";
+/* Global Defaults */
+:root {
+  --mono-font: "Andale Mono", "Andale Mono WT", "Bitstream Vera Sans Mono",
+    Consolas, Courier, "Courier New", "DejaVu Sans Mono", "Liberation Mono",
+    "Lucida Console", "Lucida Sans Typewriter", Menlo, Monaco, monospace,
+    "Nimbus Mono L", "Ubuntu Mono";
+  --sans-font: -apple-system, Arial, Avenir, "Avenir Next", BlinkMacSystemFont,
+    Helvetica, "Helvetica Neue", "Nimbus Sans L", "Noto Sans", Roboto, sans-serif,
+    "Segoe UI", system-ui;
+}
 
-  /* Default (light) theme */
+/* Theme Colors */
+:root {
   --bg: #FFFFFF;
   --bg-box: #E8F2FF;
   --border: #008FDB;
@@ -15,11 +21,8 @@
   --mark: #ffe53e;
 }
 
-/* Dark theme */
 @media (prefers-color-scheme: dark) {
-  :root,
-  ::backdrop {
-    color-scheme: dark;
+	:root {
     --bg: #001C30;
     --bg-box: #003B5E;
     --border: #0071AF;
@@ -28,19 +31,21 @@
     --text: #E8F2FF;
     --code: #D57300;
     --mark: #fff9e5;
-  }
-  /* Add some transparency to reduce glare in dark mode */
-  img,
-  video {
-    opacity: 0.8;
-  }
+	}
+}
+
+/* Stylesheet */
+*, *::before, *::after {
+  box-sizing: border-box;
 }
 
 html {
-  font-family: var(--sans-font);
+	font-family: var(--sans-font);
+	overflow-y: scroll;
   scroll-behavior: smooth;
 }
 
+/* Theme Specific */
 body {
   background-color: var(--bg);
   color: var(--text);
@@ -56,7 +61,7 @@ body > * {
 
 body > header {
   background-color: var(--bg-box);
-  border-bottom: 2px solid var(--border);
+  border-bottom: 1px solid var(--border);
   padding: 0 0.5rem 0.5rem 0.5rem;
   text-align: center;
   grid-column: 1 / -1;
@@ -81,7 +86,7 @@ header > nav {
 
 header > nav a,
 header > nav a:visited {
-  border: 2px solid var(--border);
+  border: 1px solid var(--border);
   border-radius: 5px;
   color: var(--text);
   display: inline-block;
@@ -103,7 +108,7 @@ main {
 }
 
 body > footer {
-  border-top: 2px solid var(--border);  
+  border-top: 1px solid var(--border);  
   color: var(--meta);
   font-size: 0.9rem;
   margin-top: 2rem;
@@ -183,24 +188,28 @@ h6 {
   }
 }
 
-a, a:visited {
-  color: var(--link);
+/* Variables */
+a {
+	color: var(--link);
 }
 
-a:hover {
+a:active,
+a:hover,
+a:visited {
+	color: var(--border);
   text-decoration: none;
 }
 
 abbr[title] {
   cursor: help;
-  text-decoration-line: underline;
-  text-decoration-style: dotted;
+}
+
+dd {
+    color: var(--meta);
 }
 
 hr {
-  background: var(--border);
-  border: none;
-  height: 1px;
+	border: 1px solid var(--border);
   margin: 1rem auto;
 }
 
@@ -217,10 +226,14 @@ mark a {
 
 /* Special elements */
 article, aside, details, pre {
-  border: 2px solid var(--border);
+  border: 1px solid var(--border);
   border-radius: 5px;
   margin-bottom: 1rem;
   padding: 0.5rem 1rem;
+}
+
+article:first-child {
+	margin-top: 0;
 }
 
 aside, details, pre {
@@ -247,7 +260,6 @@ blockquote {
 cite {
   color: var(--meta);
   font-size: 0.9rem;
-  font-style: italic;
 }
 
 code, kbd, pre, pre span, samp {
@@ -343,7 +355,7 @@ table caption {
 /* Classes */
 .notice {
   background: var(--bg-box);
-  border: 2px solid var(--border);
+  border: 1px solid var(--border);
   border-radius: 5px;
   margin: 1.5rem 0;
   padding: 1rem;

@@ -102,6 +102,18 @@ The `details` of this element are hidden behind a `summary`.
 
 ### Media
 
+This is an embedded `audio` file.
+
+<audio controls="">audio</audio>
+
+This is an embedded `video` file.
+
+<video controls="">video</video>
+
+This is a pdf inside an `object`.
+
+<object type="application/pdf" data="/sample.pdf"></object>
+
 This is an image inside a `figure` with `figcaption`.
 
 <figure>

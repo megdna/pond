@@ -2,7 +2,6 @@
 layout: post
 permalink: /blog
 title: Blog
-image: /images/blue.jpg
 ---
 <div class="notice">Subscribe to <a href="{{ site.baseurl }}/feed" target="_blank">Feed</a></div>
 

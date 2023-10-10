@@ -3,7 +3,7 @@ layout: post
 permalink: /style
 title: "Style Demo"
 description: This is a demonstration of the elements in CSS.
-image: /images/blue.jpg
+sitemap: false
 ---
 ### Article
 
@@ -102,17 +102,17 @@ The `details` of this element are hidden behind a `summary`.
 
 ### Media
 
-This is an embedded `audio` file.
+This is an `audio` file.
 
-<audio controls="">audio</audio>
+<audio controls src="{{ site.baseurl}}/assets/media/sample.mp3"></audio>
 
-This is an embedded `video` file.
+This is a `video` file.
 
-<video controls="">video</video>
+<video controls loop src="{{ site.baseurl}}/assets/media/sample.mp4"></video>
 
 This is a pdf inside an `object`.
 
-<object type="application/pdf" data="/sample.pdf"></object>
+<object type="application/pdf" data="{{ site.baseurl}}/assets/media/sample.pdf"></object>
 
 This is an image inside a `figure` with `figcaption`.
 

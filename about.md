@@ -3,7 +3,6 @@ layout: post
 permalink: /about
 title: About
 description: This is an introduction page.
-image: /images/blue.jpg
 ---
 <article>
 <h4>Project 1</h4>

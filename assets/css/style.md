@@ -102,11 +102,11 @@ The `details` of this element are hidden behind a `summary`.
 
 ### Media
 
-This is an `audio` file.
+This is an `audio` sample.
 
 <audio controls src="{{ site.baseurl}}/assets/media/sample.mp3"></audio>
 
-This is a `video` file.
+This is a `video` on loop.
 
 <video controls loop src="{{ site.baseurl}}/assets/media/sample.mp4"></video>
 

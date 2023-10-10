@@ -293,6 +293,7 @@ details[open] > summary + * {
 }
 
 details[open] > summary {
+  background-color: none;
   margin-bottom: 0.5rem;
 }
 
@@ -300,7 +301,12 @@ details[open] > :last-child {
   margin-bottom: 0;
 }
 
-audio, img, object, video {
+audio, embed, object {
+  border-radius: 5px;
+  width: 100%;
+}
+
+img, video {
   border-radius: 5px;
   height: auto;
   max-width: 100%;

@@ -23,3 +23,10 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+
+defaults:
+  -
+    scope:
+      path: "assets/**"
+    values:
+      sitemap: false

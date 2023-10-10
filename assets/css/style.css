@@ -300,7 +300,7 @@ details[open] > :last-child {
   margin-bottom: 0;
 }
 
-img, video {
+audio, img, object, video {
   border-radius: 5px;
   height: auto;
   max-width: 100%;

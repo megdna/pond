@@ -293,7 +293,7 @@ details[open] > summary + * {
 }
 
 details[open] > summary {
-  background-color: none;
+  background-color: var(--bg);
   margin-bottom: 0.5rem;
 }
 
@@ -301,7 +301,7 @@ details[open] > :last-child {
   margin-bottom: 0;
 }
 
-audio, embed, object {
+audio, embed, iframe, object {
   border-radius: 5px;
   width: 100%;
 }

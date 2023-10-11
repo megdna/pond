@@ -254,6 +254,10 @@ cite, dd {
   font-size: 0.9rem;
 }
 
+dd::before {
+	content: '→ ';
+}
+
 code, kbd, pre, pre span, samp {
   color: var(--code);
   font-family: var(--mono-font);
@@ -281,12 +285,15 @@ pre code {
 }
 
 summary {
-  background-color: var(--bg);
   cursor: pointer;
   font-weight: bold;
   margin: -0.5rem -1rem;
   padding: 0.5rem 1rem;
   word-break: break-all;
+}
+
+details > summary {
+  background-color: var(--bg);
 }
 
 details[open] > summary + * {

@@ -291,7 +291,6 @@ pre code {
 summary {
   cursor: pointer;
   font-weight: bold;
-  margin: -0.5rem -1rem;
   padding: 0.5rem 1rem;
   word-break: break-all;
 }
@@ -373,7 +372,7 @@ a.anchor:hover {
 }
 a.anchor:focus,
 :hover > a.anchor {
-	color: var(--border);
+	color: var(--meta);
 }
 
 .logo {

@@ -10,6 +10,8 @@ sitemap: false
 <nav>
 <a href="#article">Article</a>
 <a href="#aside">Aside</a>
+<a href="#blockquote">Blockquote</a>
+<a href="#code">Code Block</a>
 </nav>
 
 <h3 id="article">Article <a class="anchor" href="#article">#</a></h3>
@@ -48,7 +50,7 @@ This is an `aside` which floats to the right.
 </aside>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-### Blockquote
+<h3 id="blockquote">Blockquote <a class="anchor" href="#blockquote">#</a></h3>
 
 This is a `blockquote` with a `cite`.
 
@@ -56,7 +58,7 @@ This is a `blockquote` with a `cite`.
 >
 > <cite>Anonymous</cite>
 
-### Code Block
+<h3 id="code">Code Block <a class="anchor" href="#code">#</a></h3>
 
 This can display a block of `code` using `pre`.
 

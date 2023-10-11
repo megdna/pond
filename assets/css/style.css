@@ -290,6 +290,7 @@ pre code {
 }
 
 summary {
+  border-radius: 4px;
   cursor: pointer;
   font-weight: bold;
   margin: -0.5rem -1rem;

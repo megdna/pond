@@ -214,7 +214,7 @@ abbr[title] {
 }
 
 hr {
-	border: 1px dotted var(--border);
+	border: 1px dashed var(--border);
   margin: 1rem auto;
 }
 
@@ -244,7 +244,7 @@ aside, summary, pre {
 aside {
   float: right;
   margin-inline-start: 1rem;
-  width: 30%;
+  width: 40%;
 }
 *[dir="rtl"] aside {
   float: left;
@@ -314,14 +314,9 @@ details[open] > :last-child {
   margin-bottom: 0;
 }
 
-audio, embed {
+audio, embed, iframe, object {
+  border: none;
   border-radius: 5px;
-  width: 100%;
-}
-
-iframe, object {
-  border-radius: 5px;
-  height: auto;
   width: 100%;
 }
 

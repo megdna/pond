@@ -11,7 +11,11 @@ sitemap: false
 <a href="#article">Article</a>
 <a href="#aside">Aside</a>
 <a href="#blockquote">Blockquote</a>
-<a href="#code">Code Block</a>
+<a href="#code">Code</a>
+<a href="#details">Details</a>
+<a href="#lists">Lists</a>
+<a href="#media">Media</a>
+<a href="#table">Table</a>
 </nav>
 
 <h3 id="article">Article <a class="anchor" href="#article">#</a></h3>
@@ -74,7 +78,7 @@ body {
 
 <pre>Here is some pre-formatted text that does not wrap.</pre>
 
-### Details/Summary
+<h3 id="details">Details/Summary <a class="anchor" href="#details">#</a></h3>
 
 The `details` of this element are hidden behind a `summary`.
 
@@ -83,7 +87,7 @@ The `details` of this element are hidden behind a `summary`.
   Some text
 </details>
 
-### Lists
+<h3 id="lists">Lists <a class="anchor" href="#lists">#</a></h3>
 
 <p><u>Description</u></p>
 <dl>
@@ -109,7 +113,7 @@ The `details` of this element are hidden behind a `summary`.
     * Item
     * Item
 
-### Media
+<h3 id="media">Media <a class="anchor" href="#media">#</a></h3>
 
 This is an `audio` sample.
 
@@ -134,7 +138,7 @@ This is an image inside a `figure` with `figcaption`.
   <figcaption>Here is a caption for the photo.</figcaption>
 </figure>
 
-### Table
+<h3 id="table">Table <a class="anchor" href="#table">#</a></h3>
 
 This is a `table` with overflow contained in a `figure`.
 

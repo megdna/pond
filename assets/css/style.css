@@ -107,6 +107,10 @@ main {
   padding-top: 0.5rem;
 }
 
+nav::before {
+	content: ' → ';
+}
+
 body > footer {
   border-top: 1px solid var(--border);  
   color: var(--meta);
@@ -355,7 +359,6 @@ table caption {
 
 /* Classes */
 .anchor {
-	font-size: 1rem;
 	font-style: normal;
 	margin-left: .1rem;
 	text-decoration: none;
@@ -370,10 +373,7 @@ a.anchor:hover {
 }
 a.anchor:focus,
 :hover > a.anchor {
-	color: var(--link);
-}
-h2 + .anchor {
-	font-size: 1.5rem;
+	color: var(--bg-box);
 }
 
 .logo {

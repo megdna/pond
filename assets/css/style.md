@@ -5,7 +5,14 @@ title: "Style Demo"
 description: This is a demonstration of the elements in CSS.
 sitemap: false
 ---
-### Article
+### Navigation
+
+<nav>
+<a href="#article">Article</a>
+<a href="#aside">Aside</a>
+</nav>
+
+<h3 id="article">Article <a class="anchor" href="#article">#</a></h3>
 
 This is an `article` showing some basic styling.
 
@@ -31,7 +38,7 @@ This is an `article` showing some basic styling.
 <p>Keyboard: <kbd>Cmd</kbd></p>
 </article>
 
-### Aside
+<h3 id="aside">Aside <a class="anchor" href="#aside">#</a></h3>
 
 This is an `aside` which floats to the right.
 

@@ -107,7 +107,7 @@ main {
   padding-top: 0.5rem;
 }
 
-main > nav: a:before {
+main > nav a:before {
 	content: ' → ';
 }
 
@@ -373,7 +373,7 @@ a.anchor:hover {
 }
 a.anchor:focus,
 :hover > a.anchor {
-	color: var(--bg-box);
+	color: var(--border);
 }
 
 .logo {

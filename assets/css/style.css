@@ -107,7 +107,7 @@ main {
   padding-top: 0.5rem;
 }
 
-nav::before {
+main nav: a:before {
 	content: ' → ';
 }
 

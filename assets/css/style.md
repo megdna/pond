@@ -121,7 +121,7 @@ This is a `video` on loop.
 
 This is a site inside an `iframe`.
 
-<iframe src="https://example.com"></iframe>
+<iframe src="https://example.com"> </iframe>
 
 This is a pdf inside an `object`.
 

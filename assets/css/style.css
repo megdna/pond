@@ -321,7 +321,7 @@ audio, embed {
 
 iframe, object {
   border-radius: 5px;
-  height: 50%;
+  height: auto;
   width: 100%;
 }
 

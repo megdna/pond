@@ -291,7 +291,6 @@ pre code {
 summary {
   cursor: pointer;
   font-weight: bold;
-  padding: 0.5rem 1rem;
   word-break: break-all;
 }
 

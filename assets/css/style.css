@@ -281,6 +281,7 @@ pre code {
 }
 
 summary {
+  background-color: var(--bg);
   cursor: pointer;
   font-weight: bold;
   margin: -0.5rem -1rem;
@@ -293,7 +294,6 @@ details[open] > summary + * {
 }
 
 details[open] > summary {
-  background-color: var(--bg);
   margin-bottom: 0.5rem;
 }
 

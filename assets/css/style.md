@@ -5,7 +5,7 @@ title: "Style Demo"
 description: This is a demonstration of the elements in CSS.
 sitemap: false
 ---
-### Navigation
+<h3 id="nav">Navigation <a class="anchor" href="#nav">#</a></h3>
 
 <nav>
 <a href="#article">Article</a>
@@ -187,3 +187,5 @@ This is a `table` with overflow contained in a `figure`.
   </table>
   <figcaption>Table Caption</figcaption>
 </figure>
+
+<a href="#nav">Return to Top</a>

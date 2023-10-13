@@ -217,20 +217,18 @@ aside {
 
 section {
   border-radius: 5px;
-  box-shadow: 2px 2px 5px var(--shadow);
+  box-shadow: 5px 5px var(--shadow);
+  display: block;
   margin-top: 1rem;
   padding: 1rem;
 }
 section:hover {
-  box-shadow: 2px 2px 5px var(--border);
+  box-shadow: 5px 5px var(--border);
 }
 section img {
   float: right;
   margin-inline-start: 1rem;
-  max-width: 40%;
-}
-*[dir="rtl"] section {
-  float: left;
+  width: 40%;
 }
 
 blockquote {

@@ -92,7 +92,7 @@ This is a keyboard using `kbd`!
 
 <p><kbd>control</kbd> + <kbd>C</kbd></p>
 <p><kbd><kbd>control</kbd> + <kbd>V</kbd></kbd></p>
-<br><br>
+<br>
 <p>
 <kbd>`</kbd> <kbd>1</kbd> <kbd>2</kbd> <kbd>3</kbd> <kbd>4</kbd> <kbd>5</kbd> <kbd>6</kbd> <kbd>7</kbd> <kbd>8</kbd> <kbd>9</kbd> <kbd>0</kbd> <kbd>-</kbd> <kbd>=</kbd> <kbd>delete</kbd>
 </p>

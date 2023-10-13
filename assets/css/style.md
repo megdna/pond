@@ -171,8 +171,9 @@ This is an image inside a `figure` with `figcaption`.
 Here are two boxes using `section`.
 
 <section>
-  <h4>Project</h4>
   <img src="https://placekitten.com/200/200" alt="Photo of kitten(s)">
+  <h4>Project</h4>
+  <cite>Tagline</cite>
   <p>Description</p>
 </section>
 <section>

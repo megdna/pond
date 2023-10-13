@@ -112,6 +112,7 @@ main {
 
 main > nav a {
   font-weight: bold;
+  margin-top: 1rem;
 	text-decoration: none;
 }
 
@@ -245,10 +246,6 @@ blockquote {
 cite, dd {
   color: var(--meta);
   font-size: 0.9rem;
-}
-
-dd, dl {
-  margin: 0;
 }
 
 dd::before {

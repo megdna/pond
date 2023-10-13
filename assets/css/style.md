@@ -172,7 +172,7 @@ Here are two boxes using `section`.
 
 <section>
   <img src="https://placekitten.com/200/200" alt="Photo of kitten(s)">
-  <h4>Project</h4>
+  <h5>Project</h5>
   <cite>Tagline</cite>
   <p>Description</p>
 </section>

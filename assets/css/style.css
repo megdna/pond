@@ -1,4 +1,4 @@
-/* Global Defaults */
+/* Theme Defaults */
 :root {
   --mono-font: "Andale Mono", "Andale Mono WT", "Bitstream Vera Sans Mono",
     Consolas, Courier, "Courier New", "DejaVu Sans Mono", "Liberation Mono",
@@ -9,10 +9,10 @@
     "Segoe UI", system-ui;
 }
 
-/* Theme Colors */
 :root {
   --bg: #FFFFFF;
   --bg-box: #E8F2FF;
+  --shadow: #C6E0FF;
   --border: #008FDB;
   --link: #0071AF;
   --meta: #003B5E;
@@ -23,8 +23,9 @@
 
 @media (prefers-color-scheme: dark) {
 	:root {
-    --bg: #001C30;
-    --bg-box: #003B5E;
+    --bg: #222222;
+    --bg-box: #001C30;
+    --shadow: #003B5E;
     --border: #0071AF;
     --link: #008FDB;
     --meta: #C6E0FF;
@@ -34,7 +35,6 @@
 	}
 }
 
-/* Stylesheet */
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -68,24 +68,25 @@ body > header {
   text-align: center;
   grid-column: 1 / -1;
 }
-
+body > header img {
+	aspect-ratio: 1/1;
+  clip-path: circle();
+	width: 48px;
+}
 body > header h1 {
   margin: 0.5rem auto;
   max-width: 1200px;
 }
-
 body > header p {
   font-size: 1.15rem;
   margin: 0.5rem auto;
   max-width: 40rem;
 }
-
 header > nav {
   font-size: 1rem;
   line-height: 2;
   padding: 0.5rem 0 0 0;
 }
-
 header > nav a,
 header > nav a:visited {
   border: 1px solid var(--border);
@@ -96,7 +97,6 @@ header > nav a:visited {
   padding: 0.1rem 1rem;
   text-decoration: none;
 }
-
 header > nav a:hover,
 header > nav a.current,
 header > nav a[aria-current="page"] {
@@ -108,12 +108,11 @@ header > nav a[aria-current="page"] {
 main {
   padding-top: 0.5rem;
 }
-
 main > nav a {
   font-weight: bold;
+  margin-top: 1rem;
 	text-decoration: none;
 }
-
 main > nav a:before {
 	content: " → ";
 }
@@ -126,58 +125,47 @@ body > footer {
   padding: 1rem 1rem 1.5rem 1rem;
   text-align: center;
 }
-
 body > footer p {
   margin: 0.5rem auto;
 }
-
 footer > nav a {
   padding: 0 0.25rem 0 0.25rem;
 }
 
+/* Standard HTML */
 h1, h2, h3, h4, h5, h6, p {
   overflow-wrap: break-word;
 }
-
 h1, h2, h3, h4 {
   line-height: 1.1;
   margin: 1.5rem 0 0 0;
   text-wrap: balance;
 }
-
 h5, h6, p {
   margin: 1rem 0;
 }
-
 h1 {
   font-size: 2.5rem;
 }
-
 h2 {
   font-size: 2.1rem;
 }
-
 h3 {
   font-size: 1.75rem;
 }
-
 h4 {
   font-size: 1.25rem;
 }
-
 h5 {
   font-size: 1.15rem;
 }
-
 h6 {
   font-size: 0.96rem;
 }
 
-/* Variables */
 a {
 	color: var(--link);
 }
-
 a:active,
 a:hover,
 a:visited {
@@ -202,12 +190,11 @@ mark {
   color: #001C30;
   padding: 2px 5px;
 }
-
 mark a {
   color: #0071AF;
 }
 
-/* Special elements */
+/* Special Elements */
 article, aside, details, pre {
   border: 1px solid var(--border);
   border-radius: 5px;
@@ -226,6 +213,21 @@ aside {
 }
 *[dir="rtl"] aside {
   float: left;
+}
+
+section {
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px var(--bg-box);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    margin: 1rem;
+    padding: 1.25rem;
+    width: 50%;
+}
+section:hover {
+    box-shadow: 2px 2px 10px var(--shadow);
 }
 
 blockquote {
@@ -342,7 +344,7 @@ table caption {
   margin-bottom: 0.5rem;
 }
 
-/* Classes */
+/* Optional Classes */
 .anchor {
 	font-style: normal;
 	margin-left: .1rem;
@@ -359,12 +361,6 @@ a.anchor:hover {
 a.anchor:focus,
 :hover > a.anchor {
 	color: var(--meta);
-}
-
-.logo {
-	aspect-ratio: 1/1;
-  clip-path: circle();
-	width: 48px;
 }
 
 .notice {

@@ -2,9 +2,10 @@
 layout: post
 permalink: /style
 title: "Style Demo"
-description: This is a demonstration of the elements in CSS.
 sitemap: false
 ---
+This is a demonstration of the elements in CSS.
+
 <h3 id="nav">Navigation <a class="anchor" href="#nav">#</a></h3>
 
 This is the main `nav` with arrows.
@@ -43,7 +44,6 @@ This is an `article` showing some basic styling.
 <p><abbr title="Uniform Resource Locator">URL</abbr> Abbreviated</p>
 <p><mark>Highlighted</mark></p>
 <p><mark>Highlighted <a href="https://example.com" target="_blank">URL</a></mark></p>
-<p>Keyboard: <kbd>Cmd</kbd></p>
 </article>
 
 <h3 id="aside">Aside <a class="anchor" href="#aside">#</a></h3>
@@ -56,6 +56,17 @@ This is an `aside` which floats to the right.
 </aside>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
+Here are two boxes using `section`.
+
+<section>
+  Project 1
+  Description
+</section>
+<section>
+  Project 2
+  Description
+</section>
+
 <h3 id="blockquote">Blockquote <a class="anchor" href="#blockquote">#</a></h3>
 
 This is a `blockquote` with a `cite`.
@@ -66,7 +77,7 @@ This is a `blockquote` with a `cite`.
 
 <h3 id="code">Code Block <a class="anchor" href="#code">#</a></h3>
 
-This can display a block of `code` using `pre`.
+This can display a block of `code`.
 
 ```
 body {
@@ -78,7 +89,43 @@ body {
 }
 ```
 
-<pre>Here is some pre-formatted text that does not wrap.</pre>
+Here is some pre-formatted text using `pre`.
+
+<pre>
+H   H  EEEEE  L      L       OOO   !!
+H   H  E      L      L      O   O  !!
+HHHHH  EEEEE  L      L      O   O  !!
+H   H  E      L      L      O   O
+H   H  EEEEE  LLLLL  LLLLL   OOO   !!
+</pre>
+
+This is a keyboard using `kbd`!
+
+<kbd>Enter</kbd>
+<br>
+<kbd>Ctrl</kbd> + <kbd>C</kbd>
+<br>
+<kbd><kbd>Ctrl</kbd> + <kbd>V</kbd></kbd>
+<p>
+  <kbd>`</kbd><kbd>1</kbd><kbd>2</kbd><kbd>3</kbd><kbd>4</kbd><kbd>5</kbd>
+  <kbd>6</kbd><kbd>7</kbd><kbd>8</kbd><kbd>9</kbd><kbd>0</kbd><kbd>-</kbd>
+  <kbd>=</kbd><kbd>Bkspc</kbd>
+</p>
+<p>
+  <kbd>Tab</kbd><kbd>q</kbd><kbd>w</kbd><kbd>e</kbd><kbd>r</kbd><kbd>t</kbd>
+  <kbd>y</kbd><kbd>u</kbd><kbd>i</kbd><kbd>o</kbd><kbd>p</kbd><kbd>[</kbd>
+  <kbd>]</kbd><kbd>\</kbd>
+</p>
+<p>
+  <kbd>Caps</kbd><kbd>a</kbd><kbd>s</kbd><kbd>d</kbd><kbd>f</kbd><kbd>g</kbd>
+  <kbd>h</kbd><kbd>j</kbd><kbd>k</kbd><kbd>l</kbd><kbd>;</kbd><kbd>'</kbd>
+  <kbd>Enter</kbd>
+</p>
+<p>
+  <kbd>Shift</kbd><kbd>z</kbd><kbd>x</kbd><kbd>c</kbd><kbd>v</kbd>
+  <kbd>b</kbd><kbd>n</kbd><kbd>m</kbd><kbd>,</kbd><kbd>.</kbd><kbd>/</kbd>
+  <kbd>Shift</kbd>
+</p>
 
 <h3 id="details">Details/Summary <a class="anchor" href="#details">#</a></h3>
 

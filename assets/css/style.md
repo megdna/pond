@@ -7,6 +7,8 @@ sitemap: false
 ---
 <h3 id="nav">Navigation <a class="anchor" href="#nav">#</a></h3>
 
+This is the main `nav` with arrows.
+
 <nav>
 <a href="#article">Article</a>
 <a href="#aside">Aside</a>

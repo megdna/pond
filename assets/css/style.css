@@ -217,16 +217,15 @@ aside {
 
 section {
   border-radius: 5px;
-  box-shadow: 5px 5px var(--shadow);
-  display: block;
+  box-shadow: 5px 5px 5px var(--shadow);
   margin-top: 1rem;
   padding: 1rem;
 }
 section:hover {
-  box-shadow: 5px 5px var(--border);
+  box-shadow: 5px 5px 5px var(--border);
 }
 section img {
-  float: right;
+  justify-content: right;
   margin-inline-start: 1rem;
   width: 40%;
 }
@@ -247,6 +246,7 @@ cite, dd {
 code, kbd, pre, pre span, samp {
   color: var(--code);
   font-family: var(--mono-font);
+  line-height: 1;
 }
 
 kbd {

@@ -217,20 +217,19 @@ aside {
 
 section {
   border-radius: 5px;
-  box-shadow: 5px var(--shadow);
+  box-shadow: 2px 2px 5px var(--shadow);
   margin-top: 1rem;
   padding: 1rem;
 }
 section:hover {
-  box-shadow: 2px 2px 10px var(--border);
+  box-shadow: 2px 2px 5px var(--border);
 }
 section img {
   float: right;
   margin-inline-start: 1rem;
-  max-height: 100%;
-  width: auto;
+  max-width: 40%;
 }
-*[dir="rtl"] aside {
+*[dir="rtl"] section {
   float: left;
 }
 

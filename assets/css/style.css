@@ -206,11 +206,6 @@ aside, summary, pre {
   background-color: var(--bg-box);
 }
 
-article header,
-section header {
-  padding-top: 0;
-}
-
 aside {
   float: right;
   margin-inline-start: 1rem;
@@ -222,7 +217,8 @@ aside {
 
 section {
   border-radius: 5px;
-  box-shadow: 2px 2px 10px var(--shadow);
+  box-shadow: 5px var(--shadow);
+  margin-top: 1rem;
   padding: 1rem;
 }
 section:hover {
@@ -231,7 +227,11 @@ section:hover {
 section img {
   float: right;
   margin-inline-start: 1rem;
-  width: 40%;
+  max-height: 100%;
+  width: auto;
+}
+*[dir="rtl"] aside {
+  float: left;
 }
 
 blockquote {

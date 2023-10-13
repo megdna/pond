@@ -17,6 +17,7 @@ This is the main `nav` with arrows.
 <a href="#details">Details</a>
 <a href="#lists">Lists</a>
 <a href="#media">Media</a>
+<a href="#section">Section</a>
 <a href="#table">Table</a>
 </nav>
 
@@ -25,7 +26,7 @@ This is the main `nav` with arrows.
 This is an `article` showing some basic styling.
 
 <article>
-<header><h1>Heading 1</h1></header>
+<h1>Heading 1</h1>
 <h2>Heading 2</h2>
 <h3>Heading 3</h3>
 <h4>Heading 4</h4>
@@ -54,19 +55,6 @@ This is an `aside` which floats to the right.
 <p><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit</i></p>
 </aside>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-Here are two boxes using `section`.
-
-<section>
-  <header><h4>Project</h4></header>
-  <img src="https://placekitten.com/400/400" alt="Photo of kitten(s)">
-  <p>Description</p>
-</section>
-<section>
-  <header><h4><a href="https://example.com" target="_blank">Post</a></h4></header>
-  <p>Description</p>
-  <cite>Date</cite>
-</section>
 
 <h3 id="blockquote">Blockquote <a class="anchor" href="#blockquote">#</a></h3>
 
@@ -104,7 +92,7 @@ This is a keyboard using `kbd`!
 
 <p><kbd>control</kbd> + <kbd>C</kbd></p>
 <p><kbd><kbd>control</kbd> + <kbd>V</kbd></kbd></p>
-<p></p>
+<p> </p>
 <p>
 <kbd>`</kbd> <kbd>1</kbd> <kbd>2</kbd> <kbd>3</kbd> <kbd>4</kbd> <kbd>5</kbd> <kbd>6</kbd> <kbd>7</kbd> <kbd>8</kbd> <kbd>9</kbd> <kbd>0</kbd> <kbd>-</kbd> <kbd>=</kbd> <kbd>delete</kbd>
 </p>
@@ -177,6 +165,21 @@ This is an image inside a `figure` with `figcaption`.
   <img src="https://placekitten.com/800/800" alt="Photo of kitten(s)">
   <figcaption>Here is a caption for the photo.</figcaption>
 </figure>
+
+<h3 id="section">Section <a class="anchor" href="#section">#</a></h3>
+
+Here are two boxes using `section`.
+
+<section>
+  <h4>Project</h4>
+  <img src="https://placekitten.com/400/400" alt="Photo of kitten(s)">
+  <p>Description</p>
+</section>
+<section>
+  <h4><a href="https://example.com" target="_blank">Post</a></h4>
+  <p>Description</p>
+  <cite>Date</cite>
+</section>
 
 <h3 id="table">Table <a class="anchor" href="#table">#</a></h3>
 

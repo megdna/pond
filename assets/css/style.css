@@ -223,9 +223,7 @@ aside {
 section {
   border-radius: 5px;
   box-shadow: 2px 2px 10px var(--shadow);
-  display: flex;
-  flex-wrap: wrap;
-  margin: 1rem;
+  padding: 1rem;
 }
 section:hover {
   box-shadow: 2px 2px 10px var(--border);

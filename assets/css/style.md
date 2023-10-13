@@ -2,10 +2,9 @@
 layout: post
 permalink: /style
 title: "Style Demo"
+description: This is a demonstration of the elements in CSS.
 sitemap: false
 ---
-This is a demonstration of the elements in CSS.
-
 <h3 id="nav">Navigation <a class="anchor" href="#nav">#</a></h3>
 
 This is the main `nav` with arrows.
@@ -103,9 +102,9 @@ H   H  EEEEE  LLLLL LLLLL  OOO      W W    OOO   R   R  LLLLL DDDD   !!
 
 This is a keyboard using `kbd`!
 
-<p><kbd>Ctrl</kbd> + <kbd>C</kbd></p>
-<p><kbd><kbd>Ctrl</kbd> + <kbd>V</kbd></kbd></p>
-
+<p><kbd>control</kbd> + <kbd>C</kbd></p>
+<p><kbd><kbd>control</kbd> + <kbd>V</kbd></kbd></p>
+<p></p>
 <p>
 <kbd>`</kbd> <kbd>1</kbd> <kbd>2</kbd> <kbd>3</kbd> <kbd>4</kbd> <kbd>5</kbd> <kbd>6</kbd> <kbd>7</kbd> <kbd>8</kbd> <kbd>9</kbd> <kbd>0</kbd> <kbd>-</kbd> <kbd>=</kbd> <kbd>delete</kbd>
 </p>
@@ -113,7 +112,7 @@ This is a keyboard using `kbd`!
 <kbd>tab</kbd> <kbd>Q</kbd> <kbd>W</kbd> <kbd>E</kbd> <kbd>R</kbd> <kbd>T</kbd> <kbd>Y</kbd> <kbd>U</kbd> <kbd>I</kbd> <kbd>O</kbd> <kbd>P</kbd> <kbd>[</kbd> <kbd>]</kbd> <kbd>\</kbd>
 </p>
 <p>
-<kbd>caps lock</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> <kbd>F</kbd> <kbd>G</kbd> <kbd>H</kbd> <kbd>J</kbd> <kbd>K</kbd> <kbd>L</kbd> <kbd>;</kbd> <kbd>'</kbd> <kbd>return</kbd>
+<kbd>caps</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> <kbd>F</kbd> <kbd>G</kbd> <kbd>H</kbd> <kbd>J</kbd> <kbd>K</kbd> <kbd>L</kbd> <kbd>;</kbd> <kbd>'</kbd> <kbd>return</kbd>
 </p>
 <p>
 <kbd>shift</kbd> <kbd>Z</kbd> <kbd>X</kbd> <kbd>C</kbd> <kbd>V</kbd> <kbd>B</kbd> <kbd>N</kbd> <kbd>M</kbd> <kbd>,</kbd> <kbd>.</kbd> <kbd>/</kbd> <kbd>shift</kbd>

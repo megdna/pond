@@ -23,8 +23,8 @@
 
 @media (prefers-color-scheme: dark) {
 	:root {
-    --bg: #222222;
-    --bg-box: #001C30;
+    --bg: #001C30;
+    --bg-box: #003B5E;
     --shadow: #003B5E;
     --border: #0071AF;
     --link: #008FDB;
@@ -206,7 +206,8 @@ aside, summary, pre {
   background-color: var(--bg-box);
 }
 
-article header {
+article header,
+section header {
   padding-top: 0;
 }
 
@@ -220,17 +221,19 @@ aside {
 }
 
 section {
-    border-radius: 5px;
-    box-shadow: 2px 2px 10px var(--bg-box);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center; 
-    margin: 1rem;
-    padding: 1.25rem;
-    width: 50%;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px var(--shadow);
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1rem;
 }
 section:hover {
-    box-shadow: 2px 2px 10px var(--shadow);
+  box-shadow: 2px 2px 10px var(--border);
+}
+section img {
+  float: right;
+  margin-inline-start: 1rem;
+  width: 40%;
 }
 
 blockquote {
@@ -244,10 +247,6 @@ blockquote {
 cite, dd {
   color: var(--meta);
   font-size: 0.9rem;
-}
-
-dd::before {
-	content: '→ ';
 }
 
 code, kbd, pre, pre span, samp {
@@ -297,14 +296,19 @@ details[open] > :last-child {
   margin-bottom: 0;
 }
 
-audio, embed, iframe, object {
+audio, embed {
+  border-radius: 5px;
+  width: 100%;
+}
+
+iframe, object {
+  border: 1px solid var(--bg-box);
   border-radius: 5px;
   width: 100%;
 }
 
 img, picture, video {
   border-radius: 5px;
-  display: block;
   height: auto;
   max-width: 100%;
 }

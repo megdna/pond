@@ -26,7 +26,7 @@ This is the main `nav` with arrows.
 This is an `article` showing some basic styling.
 
 <article>
-<h1>Heading 1</h1>
+<header><h1>Heading 1</h1></header>
 <h2>Heading 2</h2>
 <h3>Heading 3</h3>
 <h4>Heading 4</h4>
@@ -59,12 +59,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 Here are two boxes using `section`.
 
 <section>
-  Project 1
-  Description
+  <header><h4>Project</h4></header>
+  <img src="https://placekitten.com/400/400" alt="Photo of kitten(s)">
+  <p>Description</p>
 </section>
 <section>
-  Project 2
-  Description
+  <header><h4><a href="https://example.com" target="_blank">Post</a></h4></header>
+  <p>Description</p>
+  <cite>Date</cite>
 </section>
 
 <h3 id="blockquote">Blockquote <a class="anchor" href="#blockquote">#</a></h3>
@@ -92,39 +94,29 @@ body {
 Here is some pre-formatted text using `pre`.
 
 <pre>
-H   H  EEEEE  L      L       OOO   !!
-H   H  E      L      L      O   O  !!
-HHHHH  EEEEE  L      L      O   O  !!
-H   H  E      L      L      O   O
-H   H  EEEEE  LLLLL  LLLLL   OOO   !!
+H   H  EEEEE  L     L      OOO     W   W   OOO   RRRR   L     DDDD   !!
+H   H  E      L     L     O   O    W W W  O   O  R   R  L     D   D  !!
+HHHHH  EEEEE  L     L     O   O    W W W  O   O  RRRR   L     D   D  !!
+H   H  E      L     L     O   O     W W   O   O  R   R  L     D   D
+H   H  EEEEE  LLLLL LLLLL  OOO      W W    OOO   R   R  LLLLL DDDD   !!
 </pre>
 
 This is a keyboard using `kbd`!
 
-<kbd>Enter</kbd>
-<br>
-<kbd>Ctrl</kbd> + <kbd>C</kbd>
-<br>
-<kbd><kbd>Ctrl</kbd> + <kbd>V</kbd></kbd>
+<p><kbd>Ctrl</kbd> + <kbd>C</kbd></p>
+<p><kbd><kbd>Ctrl</kbd> + <kbd>V</kbd></kbd></p>
+
 <p>
-  <kbd>`</kbd><kbd>1</kbd><kbd>2</kbd><kbd>3</kbd><kbd>4</kbd><kbd>5</kbd>
-  <kbd>6</kbd><kbd>7</kbd><kbd>8</kbd><kbd>9</kbd><kbd>0</kbd><kbd>-</kbd>
-  <kbd>=</kbd><kbd>Bkspc</kbd>
+<kbd>`</kbd> <kbd>1</kbd> <kbd>2</kbd> <kbd>3</kbd> <kbd>4</kbd> <kbd>5</kbd> <kbd>6</kbd> <kbd>7</kbd> <kbd>8</kbd> <kbd>9</kbd> <kbd>0</kbd> <kbd>-</kbd> <kbd>=</kbd> <kbd>delete</kbd>
 </p>
 <p>
-  <kbd>Tab</kbd><kbd>q</kbd><kbd>w</kbd><kbd>e</kbd><kbd>r</kbd><kbd>t</kbd>
-  <kbd>y</kbd><kbd>u</kbd><kbd>i</kbd><kbd>o</kbd><kbd>p</kbd><kbd>[</kbd>
-  <kbd>]</kbd><kbd>\</kbd>
+<kbd>tab</kbd> <kbd>Q</kbd> <kbd>W</kbd> <kbd>E</kbd> <kbd>R</kbd> <kbd>T</kbd> <kbd>Y</kbd> <kbd>U</kbd> <kbd>I</kbd> <kbd>O</kbd> <kbd>P</kbd> <kbd>[</kbd> <kbd>]</kbd> <kbd>\</kbd>
 </p>
 <p>
-  <kbd>Caps</kbd><kbd>a</kbd><kbd>s</kbd><kbd>d</kbd><kbd>f</kbd><kbd>g</kbd>
-  <kbd>h</kbd><kbd>j</kbd><kbd>k</kbd><kbd>l</kbd><kbd>;</kbd><kbd>'</kbd>
-  <kbd>Enter</kbd>
+<kbd>caps lock</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> <kbd>F</kbd> <kbd>G</kbd> <kbd>H</kbd> <kbd>J</kbd> <kbd>K</kbd> <kbd>L</kbd> <kbd>;</kbd> <kbd>'</kbd> <kbd>return</kbd>
 </p>
 <p>
-  <kbd>Shift</kbd><kbd>z</kbd><kbd>x</kbd><kbd>c</kbd><kbd>v</kbd>
-  <kbd>b</kbd><kbd>n</kbd><kbd>m</kbd><kbd>,</kbd><kbd>.</kbd><kbd>/</kbd>
-  <kbd>Shift</kbd>
+<kbd>shift</kbd> <kbd>Z</kbd> <kbd>X</kbd> <kbd>C</kbd> <kbd>V</kbd> <kbd>B</kbd> <kbd>N</kbd> <kbd>M</kbd> <kbd>,</kbd> <kbd>.</kbd> <kbd>/</kbd> <kbd>shift</kbd>
 </p>
 
 <h3 id="details">Details/Summary <a class="anchor" href="#details">#</a></h3>

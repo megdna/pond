@@ -112,7 +112,6 @@ main {
 
 main > nav a {
   font-weight: bold;
-  padding-top: 1rem;
 	text-decoration: none;
 }
 
@@ -173,11 +172,6 @@ h5 {
 
 h6 {
   font-size: 0.96rem;
-}
-
-ul[role='list'],
-ol[role='list'] {
-  list-style: none;
 }
 
 /* Variables */

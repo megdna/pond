@@ -301,12 +301,7 @@ details[open] > :last-child {
   margin-bottom: 0;
 }
 
-audio, embed {
-  border-radius: 5px;
-  width: 100%;
-}
-
-iframe, object {
+audio, embed, iframe, object {
   border: 1px solid var(--bg-box);
   border-radius: 5px;
   width: 100%;
@@ -315,6 +310,7 @@ iframe, object {
 img, picture, video {
   border-radius: 5px;
   height: auto;
+  justify-content: center;
   max-width: 100%;
 }
 

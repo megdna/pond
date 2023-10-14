@@ -302,16 +302,22 @@ figcaption {
 }
 
 section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+section aside {
   border: 1px solid var(--bg-box);
   border-radius: 5px;
   box-shadow: 2px 2px 10px var(--shadow);
-  margin-top: 1.5rem;
+  margin: 1rem;
   padding: 1rem;
+  width: 50%;
 }
-section:hover {
+section aside:hover {
   box-shadow: 2px 2px 10px var(--border);
 }
-section img {
+section aside img {
   float: right;
   height: 140px;
   padding-left: 1rem;

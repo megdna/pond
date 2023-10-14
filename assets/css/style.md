@@ -17,7 +17,6 @@ This is the main `nav` with arrows.
 <a href="#details">Details</a>
 <a href="#lists">Lists</a>
 <a href="#media">Media</a>
-<a href="#section">Section</a>
 <a href="#table">Table</a>
 </nav>
 
@@ -55,6 +54,22 @@ This is an `aside` which floats to the right.
 <p><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit</i></p>
 </aside>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Here are two `aside` boxes within a `section`.
+
+<section>
+<aside>
+  <img src="https://placekitten.com/200/200" alt="Photo of kitten(s)">
+  <h5>Project</h5>
+  <cite>Tagline</cite>
+  <p>Description</p>
+</aside>
+<aside>
+  <h4><a href="https://example.com" target="_blank">Post</a></h4>
+  <p>Description</p>
+  <cite>Date</cite>
+</aside>
+</section>
 
 <h3 id="blockquote">Blockquote <a class="anchor" href="#blockquote">#</a></h3>
 
@@ -166,22 +181,6 @@ This is an image inside a `figure` with `figcaption`.
   <figcaption>Here is a caption for the photo.</figcaption>
 </figure>
 
-<h3 id="section">Section <a class="anchor" href="#section">#</a></h3>
-
-Here are two boxes using `section`.
-
-<section>
-  <img src="https://placekitten.com/200/200" alt="Photo of kitten(s)">
-  <h5>Project</h5>
-  <cite>Tagline</cite>
-  <p>Description</p>
-</section>
-<section>
-  <h4><a href="https://example.com" target="_blank">Post</a></h4>
-  <p>Description</p>
-  <cite>Date</cite>
-</section>
-
 <h3 id="table">Table <a class="anchor" href="#table">#</a></h3>
 
 This is a `table` with overflow contained in a `figure`.
@@ -232,4 +231,4 @@ This is a `table` with overflow contained in a `figure`.
   <figcaption>Table Caption</figcaption>
 </figure>
 
-<a href="#nav">Return to Top</a>
+ꜛ <a href="#nav">Return to Top</a>

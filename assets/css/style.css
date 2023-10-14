@@ -223,12 +223,12 @@ section {
   padding: 1rem;
 }
 section:hover {
-  box-shadow: 2px 2px 15px var(--border);
+  box-shadow: 2px 2px 10px var(--border);
 }
 section img {
   float: right;
   height: 150px;
-  padding: 0 0 0.5rem 1rem;
+  padding-left: 1rem;
 }
 
 blockquote {

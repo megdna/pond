@@ -59,8 +59,7 @@ Here are two `aside` boxes within a `section`.
 
 <section>
 <aside>
-  <h4>Project</h4>
-  <img src="https://placekitten.com/200/200" alt="Photo of kitten(s)">
+  <h4>Project<img src="https://placekitten.com/200/200" alt="Photo of kitten(s)"></h4>
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   <cite>Meta</cite>
 </aside>

@@ -6,5 +6,5 @@ layout: default
 {% if page.image %}<img alt="{{ page.alt }}" src="{{ page.image | prepend: site.baseurl | prepend: site.url }}">{% endif %}
 {{ content }}
 {% if page.date %}<cite>Posted on {{ page.date | date_to_string }}</cite>{% endif %}
-<div align="left">{{ page.previous }}</div>
-<div align="right">{{ page.next }}</div>
+<div align="left">{{ page.previous | page.title }}</div>
+<div align="right">{{ page.next | page.title }}</div>

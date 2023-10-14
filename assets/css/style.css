@@ -236,8 +236,8 @@ section aside h4:first-child {
 }
 section aside img {
   float: right;
-  height: 140px;
   padding-left: 1rem;
+  width: 40%;
 }
 
 blockquote {

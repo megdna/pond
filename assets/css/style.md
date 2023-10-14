@@ -229,4 +229,4 @@ This is a `table` with overflow contained in a `figure`.
   <figcaption>Table Caption</figcaption>
 </figure>
 
-ꜛ <a href="#nav">Return to Top</a>
+↑ <a href="#nav">Return to Top</a> ⤴

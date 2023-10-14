@@ -41,11 +41,7 @@
 
 html {
 	font-family: var(--sans-font);
-	overflow-y: scroll;
   scroll-behavior: smooth;
-  text-size-adjust: none;
-  -moz-text-size-adjust: none;
-  -webkit-text-size-adjust: none;
 }
 
 body {
@@ -64,7 +60,7 @@ body > * {
 body > header {
   background-color: var(--bg-box);
   border-bottom: 1px solid var(--border);
-  padding: 0 0.5rem 0.5rem 0.5rem;
+  padding: 0 0.5rem 0.5rem;
   text-align: center;
   grid-column: 1 / -1;
 }
@@ -85,7 +81,7 @@ body > header p {
 header > nav {
   font-size: 1rem;
   line-height: 2;
-  padding: 0.5rem 0 0 0;
+  padding: 0.5rem 0 0;
 }
 header > nav a,
 header > nav a:visited {
@@ -93,7 +89,7 @@ header > nav a:visited {
   border-radius: 5px;
   color: var(--text);
   display: inline-block;
-  margin: 0 0.5rem 1rem 0.5rem;
+  margin: 0 0.5rem 1rem;
   padding: 0.1rem 1rem;
   text-decoration: none;
 }
@@ -110,7 +106,6 @@ main {
 }
 main > nav a {
   font-weight: bold;
-  margin-top: 1rem;
 	text-decoration: none;
 }
 main > nav a:before {
@@ -121,15 +116,15 @@ body > footer {
   border-top: 1px solid var(--border);  
   color: var(--meta);
   font-size: 0.9rem;
-  margin-top: 2rem;
-  padding: 1rem 1rem 1.5rem 1rem;
+  margin-top: 1.5rem;
+  padding: 1rem 1rem 1.5rem;
   text-align: center;
 }
 body > footer p {
   margin: 0.5rem auto;
 }
 footer > nav a {
-  padding: 0 0.25rem 0 0.25rem;
+  padding: 0 0.25rem;
 }
 
 /* Standard HTML */
@@ -310,7 +305,6 @@ audio, embed, iframe, object {
 img, picture, video {
   border-radius: 5px;
   height: auto;
-  justify-content: center;
   max-width: 100%;
 }
 

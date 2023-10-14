@@ -227,7 +227,8 @@ section:hover {
 }
 section img {
   float: right;
-  width: 200px;
+  height: 150px;
+  padding: 1rem 0 0 1rem;
 }
 
 blockquote {

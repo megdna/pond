@@ -215,23 +215,6 @@ aside {
   float: left;
 }
 
-section {
-  border: 1px solid var(--bg-box);
-  border-radius: 5px;
-  box-shadow: 2px 2px 10px var(--shadow);
-  margin-top: 1.5rem;
-  padding: 1rem;
-}
-section:hover {
-  box-shadow: 2px 2px 10px var(--border);
-}
-section img {
-  border-radius: 5px;
-  float: right;
-  height: 140px;
-  padding-left: 1rem;
-}
-
 blockquote {
   border-inline-start: 0.25rem solid var(--link);
   margin-inline-start: 1rem;
@@ -264,7 +247,6 @@ pre {
   max-width: 100%;
   overflow: auto;
 }
-
 pre code {
   background: none;
   color: var(--meta);
@@ -280,15 +262,12 @@ summary {
   padding: 0.5rem 1rem;
   word-break: break-all;
 }
-
 details[open] > summary + * {
   margin-top: 0;
 }
-
 details[open] > summary {
   margin-bottom: 0.5rem;
 }
-
 details[open] > :last-child {
   margin-bottom: 0;
 }
@@ -315,7 +294,6 @@ figure {
   margin: 0;
   overflow-x: auto;
 }
-
 figcaption {
   color: var(--meta);
   font-size: 0.9rem;
@@ -323,26 +301,38 @@ figcaption {
   text-align: center;
 }
 
+section {
+  border: 1px solid var(--bg-box);
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px var(--shadow);
+  margin-top: 1.5rem;
+  padding: 1rem;
+}
+section:hover {
+  box-shadow: 2px 2px 10px var(--border);
+}
+section img {
+  float: right;
+  height: 140px;
+  padding-left: 1rem;
+}
+
 table {
   border-collapse: collapse;
   margin: 0.5rem 0;
 }
-
 td, th {
   border: 1px solid var(--border);
   padding: 0.5rem;
   text-align: start;
 }
-
 th {
   background-color: var(--bg-box);
   font-weight: bold;
 }
-
 tr:nth-child(even) {
   background-color: var(--bg-box);
 }
-
 table caption {
   font-weight: bold;
   margin-bottom: 0.5rem;

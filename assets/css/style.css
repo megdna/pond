@@ -220,15 +220,15 @@ section {
   border-radius: 5px;
   box-shadow: 2px 2px 10px var(--shadow);
   margin-top: 1.5rem;
-  padding: 0 1rem 1rem;
+  padding: 1rem;
 }
 section:hover {
-  box-shadow: 2px 2px 15px var(--border);
+  box-shadow: 2px 2px 5px var(--border);
 }
 section img {
   float: right;
   height: 150px;
-  padding: 1rem 0 1rem 1rem;
+  padding-left: 1rem;
 }
 
 blockquote {

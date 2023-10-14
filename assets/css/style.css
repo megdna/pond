@@ -206,6 +206,10 @@ aside, summary, pre {
   background-color: var(--bg-box);
 }
 
+article {
+  width: 100%;
+}
+
 aside {
   float: right;
   margin-inline-start: 1rem;
@@ -237,7 +241,7 @@ section aside h4:first-child {
 section aside img {
   float: right;
   padding-left: 1rem;
-  width: 40%;
+  width: 150px;
 }
 
 blockquote {

@@ -60,9 +60,9 @@ Here are two `aside` boxes within a `section`.
 <section>
 <aside>
   <img src="https://placekitten.com/200/200" alt="Photo of kitten(s)">
-  <h5>Project</h5>
-  <cite>Tagline</cite>
+  <h4>Project</h4>
   <p>Description</p>
+  <cite>Meta</cite>
 </aside>
 <aside>
   <h4><a href="https://example.com" target="_blank">Post</a></h4>

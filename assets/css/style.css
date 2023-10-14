@@ -218,7 +218,6 @@ aside {
 section {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
 }
 section aside {
   background-color: var(--bg);

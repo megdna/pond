@@ -209,7 +209,7 @@ aside, summary, pre {
 aside {
   float: right;
   margin-inline-start: 1rem;
-  width: 40%;
+  min-width: 40%;
 }
 *[dir="rtl"] aside {
   float: left;
@@ -227,6 +227,7 @@ section aside {
   box-shadow: 2px 2px 10px var(--shadow);
   margin: 1rem;
   padding: 1rem;
+  width: 100%;
 }
 section aside:hover {
   box-shadow: 2px 2px 10px var(--border);

@@ -355,6 +355,10 @@ a.anchor:focus,
 	color: var(--meta);
 }
 
+.next {
+  float: right;
+}
+
 .notice {
   background: var(--bg-box);
   border: 1px solid var(--border);

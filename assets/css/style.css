@@ -186,25 +186,21 @@ code, mark {
   color: var(--text);
   padding: 2px 5px;
 }
-
 code, kbd, pre, samp {
   color: var(--meta);
   font-family: var(--mono-font);
+  line-height: 1.1;
 }
-
 kbd {
   border: 1px solid var(--meta);
   border-bottom: 3px solid var(--meta);
   border-radius: 5px;
   padding: 0.1rem 0.4rem;
 }
-
 pre {
-  line-height: 1.1;
   max-width: 100%;
   overflow: auto;
 }
-
 pre code {
   margin: 0;
   padding: 0;

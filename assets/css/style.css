@@ -187,7 +187,7 @@ code, mark {
   padding: 2px 5px;
 }
 
-code, kbd, pre, pre span, samp {
+code, kbd, pre, samp {
   color: var(--meta);
   font-family: var(--mono-font);
   line-height: 1.1;
@@ -203,12 +203,6 @@ kbd {
 pre {
   max-width: 100%;
   overflow: auto;
-}
-pre code {
-  background: none;
-  color: var(--meta);
-  margin: 0;
-  padding: 0;
 }
   
 hr {

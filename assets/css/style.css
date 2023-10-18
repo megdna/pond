@@ -189,7 +189,6 @@ code, mark {
 code, kbd, pre, samp {
   color: var(--meta);
   font-family: var(--mono-font);
-  line-height: 1.1;
 }
 kbd {
   border: 1px solid var(--meta);
@@ -202,6 +201,7 @@ pre {
   overflow: auto;
 }
 pre code {
+  line-height: 1.1;
   margin: 0;
   padding: 0;
 }

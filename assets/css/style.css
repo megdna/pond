@@ -168,19 +168,20 @@ abbr[title] {
   text-decoration-style: dotted;
 }
 
-hr {
-	border: dashed var(--border);
-  margin: 1rem auto;
+cite, dd {
+  color: var(--meta);
+  font-size: 0.9rem;
 }
 
-mark {
+code, mark {
   background-color: var(--mark);
   border-radius: 5px;
-  color: #001C30;
   padding: 2px 5px;
 }
-mark a {
-  color: #0071AF;
+  
+hr {
+	border: 1px dashed var(--border);
+  margin: 1rem auto;
 }
 
 /* Special Elements */
@@ -239,11 +240,6 @@ blockquote {
   margin-inline-end: 0;
   margin-block: 1.5rem;
   padding: 0 0.8rem;
-}
-
-cite, dd {
-  color: var(--meta);
-  font-size: 0.9rem;
 }
 
 code, kbd, pre, pre span, samp {

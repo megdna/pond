@@ -174,8 +174,9 @@ cite, dd {
 }
 
 code, mark {
-  background-color: var(--mark);
+  background-color: var(--bg-box);
   border-radius: 5px;
+  color: var(--text);
   padding: 2px 5px;
 }
   

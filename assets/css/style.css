@@ -126,12 +126,11 @@ footer > nav a {
 h1, h2, h3, h4, h5, h6, p {
   overflow-wrap: break-word;
 }
-h1, h2, h3, h4 {
+h1, h2, h3 {
   line-height: 1.1;
-  margin: 1.5rem 0 0;
-  text-wrap: balance;
+  margin: 2rem 0 1rem;
 }
-h5, h6, p {
+h4, h5, h6, p {
   margin: 1rem 0;
 }
 h1 {
@@ -170,7 +169,7 @@ abbr[title] {
 }
 
 hr {
-	border: 1px dashed var(--border);
+	border: dashed var(--border);
   margin: 1rem auto;
 }
 

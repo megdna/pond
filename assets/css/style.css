@@ -17,8 +17,6 @@
   --link: #0071AF;
   --meta: #003B5E;
   --text: #001C30;
-  --code: #AC5C00;
-  --mark: #ffe53e;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -30,8 +28,6 @@
     --link: #008FDB;
     --meta: #C6E0FF;
     --text: #E8F2FF;
-    --code: #D57300;
-    --mark: #fff9e5;
 	}
 }
 
@@ -172,8 +168,8 @@ blockquote {
   border-inline-start: 0.25rem solid var(--link);
   margin-inline-start: 1rem;
   margin-inline-end: 0;
-  margin-block: 1.5rem;
-  padding: 0 0.8rem;
+  margin-block: 1rem;
+  padding: 0 1rem;
 }
 
 cite, dd {
@@ -184,6 +180,7 @@ cite, dd {
 code, mark {
   background-color: var(--bg-box);
   border-radius: 5px;
+  color: var(--text);
   padding: 2px 5px;
 }
 
@@ -197,12 +194,10 @@ kbd {
   border: 1px solid var(--meta);
   border-bottom: 3px solid var(--meta);
   border-radius: 5px;
-  color: var(--meta);
   padding: 0.1rem 0.4rem;
 }
 
 pre {
-  color: var(--meta);
   max-width: 100%;
   overflow: auto;
 }

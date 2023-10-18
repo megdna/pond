@@ -168,6 +168,14 @@ abbr[title] {
   text-decoration-style: dotted;
 }
 
+blockquote {
+  border-inline-start: 0.25rem solid var(--link);
+  margin-inline-start: 1rem;
+  margin-inline-end: 0;
+  margin-block: 1.5rem;
+  padding: 0 0.8rem;
+}
+
 cite, dd {
   color: var(--meta);
   font-size: 0.9rem;
@@ -176,8 +184,33 @@ cite, dd {
 code, mark {
   background-color: var(--bg-box);
   border-radius: 5px;
-  color: var(--text);
   padding: 2px 5px;
+}
+
+code, kbd, pre, pre span, samp {
+  color: var(--meta);
+  font-family: var(--mono-font);
+  line-height: 1.1;
+}
+
+kbd {
+  border: 1px solid var(--meta);
+  border-bottom: 3px solid var(--meta);
+  border-radius: 5px;
+  color: var(--meta);
+  padding: 0.1rem 0.4rem;
+}
+
+pre {
+  color: var(--meta);
+  max-width: 100%;
+  overflow: auto;
+}
+pre code {
+  background: none;
+  color: var(--meta);
+  margin: 0;
+  padding: 0;
 }
   
 hr {
@@ -233,40 +266,6 @@ section aside img {
   float: right;
   padding-left: 1rem;
   width: 150px;
-}
-
-blockquote {
-  border-inline-start: 0.25rem solid var(--link);
-  margin-inline-start: 1rem;
-  margin-inline-end: 0;
-  margin-block: 1.5rem;
-  padding: 0 0.8rem;
-}
-
-code, kbd, pre, pre span, samp {
-  color: var(--code);
-  font-family: var(--mono-font);
-  line-height: 1.1;
-}
-
-kbd {
-  border: 1px solid var(--meta);
-  border-bottom: 3px solid var(--meta);
-  border-radius: 5px;
-  color: var(--meta);
-  padding: 0.1rem 0.4rem;
-}
-
-pre {
-  color: var(--meta);
-  max-width: 100%;
-  overflow: auto;
-}
-pre code {
-  background: none;
-  color: var(--meta);
-  margin: 0;
-  padding: 0;
 }
 
 summary {

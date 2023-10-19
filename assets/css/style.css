@@ -224,7 +224,10 @@ article {
   margin: 1rem 0;
   width: 100%;
 }
-article p:last-child {
+article:first-child {
+  margin-top: 0;
+}
+article:last-child {
   margin-bottom: 0;
 }
 

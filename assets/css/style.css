@@ -107,7 +107,7 @@ body > footer {
   border-top: 1px solid var(--border);  
   color: var(--meta);
   font-size: 0.9rem;
-  margin-top: 1.5rem;
+  margin-top: 1rem;
   padding: 1rem 1rem 1.5rem;
   text-align: center;
 }
@@ -195,6 +195,7 @@ kbd {
 }
 pre {
   line-height: 1.1;
+  margin: 1rem 0;
   max-width: 100%;
   overflow: auto;
 }
@@ -212,7 +213,6 @@ hr {
 article, aside, details, pre {
   border: 1px solid var(--border);
   border-radius: 5px;
-  margin: 1rem 0;
   padding: 1rem;
 }
 
@@ -221,10 +221,8 @@ aside, summary, pre {
 }
 
 article {
+  margin: 1rem 0;
   width: 100%;
-}
-article h1:first-child {
-  margin-top: 0;
 }
 article p:last-child {
   margin-bottom: 0;
@@ -232,11 +230,14 @@ article p:last-child {
 
 aside {
   float: right;
-  margin-inline-start: 1rem;
+  margin: 0 0 0.5rem 0.5rem;
   width: 40%;
 }
 *[dir="rtl"] aside {
   float: left;
+}
+aside h6:first-child {
+  margin-top: 0;
 }
 
 section {

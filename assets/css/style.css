@@ -212,8 +212,8 @@ hr {
 article, aside, details, pre {
   border: 1px solid var(--border);
   border-radius: 5px;
-  margin-bottom: 1rem;
-  padding: 0.5rem 1rem;
+  margin: 1rem 0;
+  padding: 1rem;
 }
 
 aside, summary, pre {
@@ -222,6 +222,9 @@ aside, summary, pre {
 
 article {
   width: 100%;
+}
+article h1:first-child {
+  margin-top: 1rem;
 }
 
 aside {

@@ -74,6 +74,7 @@ body > header h1 {
 body > header p {
   margin: 0.5rem auto;
   max-width: 40rem;
+  text-decoration: italic;
 }
 header > nav {
   line-height: 2;

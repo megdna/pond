@@ -62,12 +62,14 @@ body > header {
 }
 body > header a {
   color: var(--text);
-  margin: 0.5rem auto;
-  max-width: 1200px;
   text-decoration: none;
 }
 body > header a:hover {
   color: var(--link);
+}
+body > header h1 {
+  margin: 0.5rem auto;
+  max-width: 1200px;
 }
 body > header p {
   font-size: 1.15rem;

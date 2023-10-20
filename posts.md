@@ -1,7 +1,7 @@
 ---
 layout: post
-permalink: /blog
-title: Blog
+permalink: /posts
+title: Posts
 ---
 <div class="notice">Subscribe to <a href="{{ site.baseurl }}/feed" target="_blank">Feed</a></div>
 

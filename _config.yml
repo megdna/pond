@@ -6,18 +6,15 @@ baseurl: "/pond"
 permalink: :title
 
 author: Megan
-github: megdna
 goatcounter: meg
 icon: 🐟
 lang: en
 
 nav:
-  - name: Home
-    link: /
   - name: About
     link: /about
-  - name: Blog
-    link: /blog
+  - name: Posts
+    link: /posts
   
 plugins:
   - jekyll-feed

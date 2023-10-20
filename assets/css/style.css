@@ -60,9 +60,14 @@ body > header {
   text-align: center;
   grid-column: 1 / -1;
 }
-body > header h1 {
+body > header a {
+  color: var(--text);
   margin: 0.5rem auto;
   max-width: 1200px;
+  text-decoration: none;
+}
+body > header a:hover {
+  color: var(--link);
 }
 body > header p {
   font-size: 1.15rem;

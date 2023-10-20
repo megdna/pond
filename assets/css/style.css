@@ -72,12 +72,10 @@ body > header h1 {
   max-width: 1200px;
 }
 body > header p {
-  font-size: 1.15rem;
   margin: 0.5rem auto;
   max-width: 40rem;
 }
 header > nav {
-  font-size: 1rem;
   line-height: 2;
   padding: 0.5rem 0 0;
 }

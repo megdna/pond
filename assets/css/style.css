@@ -201,6 +201,10 @@ kbd {
   padding: 0.1rem 0.4rem;
 }
 pre {
+  background-color: var(--bg-box);
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  padding: 0.5rem;
   margin: 1rem 0;
   max-width: 100%;
   overflow: auto;
@@ -227,19 +231,27 @@ sup {
 }
 
 /* Special Elements */
-article, aside, details, pre {
+article, aside {
   border: 1px solid var(--border);
   border-radius: 5px;
   padding: 1rem;
-}
-aside, summary, pre {
-  background-color: var(--bg-box);
 }
 
 article {
   margin: 1rem 0;
   width: 100%;
 }
+
+aside {
+  background-color: var(--bg-box);
+  float: right;
+  margin: 0 0 0.5rem 0.5rem;
+  width: 40%;
+}
+*[dir="rtl"] aside {
+  float: left;
+}
+
 article > :first-child,
 aside > :first-child,
 section aside > :first-child {
@@ -249,15 +261,6 @@ article > :last-child,
 aside > :last-child,
 section aside > :last-child {
   margin-bottom: 0;
-}
-
-aside {
-  float: right;
-  margin: 0 0 0.5rem 0.5rem;
-  width: 40%;
-}
-*[dir="rtl"] aside {
-  float: left;
 }
 
 section {
@@ -282,7 +285,14 @@ section aside img {
   width: 150px;
 }
 
+details {
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+}
 summary {
+  background-color: var(--bg-box);
+  border: 1px solid var(--border);
   border-radius: 5px;
   cursor: pointer;
   font-weight: bold;

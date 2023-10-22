@@ -128,7 +128,8 @@ The `details` of this element are hidden behind a `summary`.
 
 <details>
   <summary>Summary 2</summary>
-  Some text
+  <p>Some text</p>
+  <p>More text</p>
 </details>
 
 <h3 id="lists">Lists <a class="anchor" href="#lists">#</a></h3>

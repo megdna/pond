@@ -288,8 +288,8 @@ section aside img {
 details {
   border: 1px solid var(--border);
   border-radius: 5px;
-  margin-bottom: 1rem;
-  padding: 1rem;
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
 }
 summary {
   background-color: var(--bg-box);
@@ -301,10 +301,10 @@ summary {
   word-break: break-all;
 }
 details[open] > summary + * {
-  margin-top: 0;
+  margin-top: 0.5rem;
 }
 details[open] > summary {
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 details[open] > :last-child {
   margin-bottom: 0;

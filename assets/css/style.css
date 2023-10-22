@@ -300,6 +300,15 @@ summary {
   padding: 0.5rem 1rem;
   word-break: break-all;
 }
+details[open] > summary + * {
+  margin-top: 0;
+}
+details[open] > summary {
+  margin-bottom: 0.5rem;
+}
+details[open] > :last-child {
+  margin-bottom: 0;
+}
 
 audio, embed, iframe, object {
   border: 1px solid var(--bg-box);

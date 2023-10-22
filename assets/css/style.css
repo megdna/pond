@@ -86,8 +86,8 @@ header > nav a:visited {
   border-radius: 5px;
   color: var(--text);
   display: inline-block;
-  margin: 0 0.5rem 1rem;
-  padding: 0.1rem 0.5rem;
+  margin: 0 0.25rem 1rem;
+  padding: 0.1rem 1rem;
   text-decoration: none;
 }
 header > nav a:hover,

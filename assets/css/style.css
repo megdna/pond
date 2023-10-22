@@ -287,11 +287,12 @@ section aside img {
 
 details {
   border: 1px solid var(--border);
-  border-radius: 5px;
+  margin-bottom: 1rem;
   padding: 0.5rem 1rem;
 }
 summary {
   background-color: var(--bg-box);
+  border-radius: 5px;
   cursor: pointer;
   font-weight: bold;
   margin: -0.5rem -1rem;

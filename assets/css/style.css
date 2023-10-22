@@ -204,7 +204,7 @@ pre {
   background-color: var(--bg-box);
   border: 1px solid var(--border);
   border-radius: 5px;
-  padding: 0.8rem 1rem;
+  padding: 1rem;
   margin: 1rem 0;
   max-width: 100%;
   overflow: auto;
@@ -289,7 +289,7 @@ details {
   border: 1px solid var(--border);
   border-radius: 5px;
   margin-bottom: 1rem;
-  padding: 0.5rem 1rem;
+  padding: 1rem;
 }
 summary {
   background-color: var(--bg-box);

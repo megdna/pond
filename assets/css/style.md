@@ -126,6 +126,11 @@ The `details` of this element are hidden behind a `summary`.
   Some text
 </details>
 
+<details>
+  <summary>Summary 2</summary>
+  Some text
+</details>
+
 <h3 id="lists">Lists <a class="anchor" href="#lists">#</a></h3>
 
 <p><u>Description</u></p>

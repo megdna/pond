@@ -292,8 +292,6 @@ details {
 }
 summary {
   background-color: var(--bg-box);
-  border-bottom: 1px solid var(--border);
-  border-radius: 5px;
   cursor: pointer;
   font-weight: bold;
   margin: -0.5rem -1rem;

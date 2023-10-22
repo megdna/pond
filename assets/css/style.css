@@ -301,13 +301,13 @@ summary {
   word-break: break-all;
 }
 details[open] > summary + * {
-  margin-top: 0.5rem;
+  margin-top: 2rem;
 }
 details[open] > summary {
-  margin-bottom: 0.5rem;
+  margin-bottom: 2rem;
 }
 details[open] > :last-child {
-  margin-bottom: 0;
+  margin-bottom: 2rem;
 }
 
 audio, embed, iframe, object {

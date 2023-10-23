@@ -1,6 +1,5 @@
 ---
-layout: post
-permalink: /
+layout: default
 ---
 ## Welcome!
 

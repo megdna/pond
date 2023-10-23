@@ -1,6 +1,6 @@
 ---
-layout: default
+layout: post
+permalink: /
+title: Welcome!
 ---
-## Welcome!
-
 View some [styles]({{ site.baseurl}}/style) to add.

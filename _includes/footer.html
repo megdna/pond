@@ -1,4 +1,4 @@
-<p>&copy; {{ site.time | date: '%Y' }}&nbsp;&nbsp;<a href="{{ site.baseurl }}">{{ site.author }}</a> {{ site.icon }}</p>
+<p>&copy; {{ site.time | date: '%Y' }} <a href="{{ site.baseurl }}">{{ site.author }}</a> {{ site.icon }}</p>
 
 <nav>
   {% for item in site.nav %}
@@ -8,8 +8,8 @@
 
 {% if site.goatcounter %}
 <script data-goatcounter="https://{{ site.goatcounter }}.goatcounter.com/count"
-        async src="//gc.zgo.at/count.js"></script>
+  async src="//gc.zgo.at/count.js"></script>
 <noscript>
-    <img src="https://{{ site.goatcounter }}.goatcounter.com/count?p=/ns">
+	<img src="https://{{ site.goatcounter }}.goatcounter.com/count?p=/ns">
 </noscript>
 {% endif %}

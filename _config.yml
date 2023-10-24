@@ -1,14 +1,13 @@
 # Site Settings
+lang: en
+icon: 🐟
 title: Pond
 description: Welcome to the Small Web
+
 url: "https://megdna.github.io"
 baseurl: "/pond"
 permalink: :title
-
-author: Megan
 goatcounter: meg
-icon: 🐟
-lang: en
 
 nav:
   - name: About

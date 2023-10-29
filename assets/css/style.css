@@ -238,6 +238,7 @@ article, aside {
 }
 
 article {
+  align-content: center;
   margin: 1rem 0;
   width: 100%;
 }
@@ -264,7 +265,6 @@ section aside > :last-child {
 }
 
 section {
-  align-content: center;
   display: flex;
   flex-wrap: wrap;
 }

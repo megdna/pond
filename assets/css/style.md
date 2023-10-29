@@ -101,9 +101,8 @@ H   H  EEEEE  LLLLL LLLLL  OOO      W W    OOO   R   R  LLLLL DDDD   !!
 
 This is a keyboard using `kbd`!
 
-<kbd>control</kbd> + <kbd>C</kbd>
-<br>
-<kbd><kbd>control</kbd> + <kbd>V</kbd></kbd>
+<div><kbd>control</kbd> + <kbd>C</kbd></div>
+<div><kbd><kbd>control</kbd> + <kbd>V</kbd></kbd></div>
 
 <kbd>`</kbd> <kbd>1</kbd> <kbd>2</kbd> <kbd>3</kbd> <kbd>4</kbd> <kbd>5</kbd> <kbd>6</kbd> <kbd>7</kbd> <kbd>8</kbd> <kbd>9</kbd> <kbd>0</kbd> <kbd>-</kbd> <kbd>=</kbd> <kbd>delete</kbd>
 <br>

@@ -238,7 +238,6 @@ article, aside {
 }
 
 article {
-  align-content: center;
   margin: 1rem 0;
   width: 100%;
 }
@@ -318,8 +317,8 @@ img, picture, video {
 }
 
 figure {
-  display: block;
-  margin: 0;
+  align-content: center;
+  margin: 1rem 0;
   overflow-x: auto;
 }
 figcaption {
@@ -338,10 +337,7 @@ td, th {
   padding: 0.5rem;
   text-align: start;
 }
-th {
-  background-color: var(--bg-box);
-  font-weight: bold;
-}
+th,
 tr:nth-child(even) {
   background-color: var(--bg-box);
 }

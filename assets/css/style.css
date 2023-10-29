@@ -305,7 +305,6 @@ details[open] > summary {
 }
 
 audio, embed, iframe, object {
-  border: 1px solid var(--bg-box);
   border-radius: 5px;
   width: 100%;
 }
@@ -317,15 +316,14 @@ img, picture, video {
 }
 
 figure {
-  align-content: center;
   margin: 1rem 0;
   overflow-x: auto;
+  text-align: center;
 }
 figcaption {
   color: var(--meta);
   font-size: 0.9rem;
   margin-top: 0.5rem;
-  text-align: center;
 }
 
 table {

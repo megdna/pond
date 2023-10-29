@@ -77,7 +77,8 @@ body > header p {
   max-width: 40rem;
 }
 header > nav {
-  padding: 1rem 0 0;
+  line-height: 2;
+  padding: 0.5rem 0 0;
 }
 header > nav a,
 header > nav a:visited {
@@ -128,6 +129,7 @@ h1, h2, h3, h4, h5, h6, p {
   overflow-wrap: break-word;
 }
 h1, h2, h3 {
+  line-height: 1.1;
   margin: 1.5rem 0 1rem;
 }
 h4, h5, h6, p {
@@ -190,6 +192,7 @@ code, mark {
 code, kbd, pre, samp {
   color: var(--meta);
   font-family: var(--mono-font);
+  line-height: normal;
 }
 kbd {
   border: 1px solid var(--meta);

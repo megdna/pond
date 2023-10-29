@@ -128,11 +128,11 @@ footer > nav a {
 h1, h2, h3, h4, h5, h6, p {
   overflow-wrap: break-word;
 }
-h1, h2, h3 {
+h1, h2, h3, h4 {
   line-height: 1.1;
   margin: 1.5rem 0 1rem;
 }
-h4, h5, h6, p {
+h5, h6, p {
   margin: 1rem 0 0.5rem;
 }
 h1 {
@@ -304,15 +304,18 @@ details[open] > summary {
   margin-bottom: 0.5rem;
 }
 
-audio, embed, iframe, object {
-  border-radius: 5px;
-  width: 100%;
-}
-
-img, picture, video {
+audio, img, picture, video {
   border-radius: 5px;
   height: auto;
   max-width: 100%;
+  margin: 1rem auto;
+}
+
+embed, iframe, object {
+  border: 1px solid var(--bg-box);
+  border-radius: 5px;
+  margin: 1rem 0;
+  width: 100%;
 }
 
 figure {

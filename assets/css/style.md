@@ -72,6 +72,7 @@ Here are two `aside` boxes within a `section`.
 This is a `blockquote` with a `cite`.
 
 > Lorem ipsum dolor sit amet
+>
 > <cite>Anonymous</cite>
 
 <h3 id="code">Code Block <a class="anchor" href="#code">#</a></h3>
@@ -101,7 +102,7 @@ H   H  EEEEE  LLLLL LLLLL  OOO      W W    OOO   R   R  LLLLL DDDD   !!
 This is a keyboard using `kbd`!
 
 <kbd>control</kbd> + <kbd>C</kbd>
-<br><br>
+<br>
 <kbd><kbd>control</kbd> + <kbd>V</kbd></kbd>
 
 <kbd>`</kbd> <kbd>1</kbd> <kbd>2</kbd> <kbd>3</kbd> <kbd>4</kbd> <kbd>5</kbd> <kbd>6</kbd> <kbd>7</kbd> <kbd>8</kbd> <kbd>9</kbd> <kbd>0</kbd> <kbd>-</kbd> <kbd>=</kbd> <kbd>delete</kbd>

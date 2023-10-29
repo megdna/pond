@@ -101,21 +101,17 @@ H   H  EEEEE  LLLLL LLLLL  OOO      W W    OOO   R   R  LLLLL DDDD   !!
 
 This is a keyboard using `kbd`!
 
-<p><kbd>control</kbd> + <kbd>C</kbd></p>
-<p><kbd><kbd>control</kbd> + <kbd>V</kbd></kbd></p>
+<kbd>control</kbd> + <kbd>C</kbd>
+<br>
+<kbd><kbd>control</kbd> + <kbd>V</kbd></kbd>
 
-<p>
 <kbd>`</kbd> <kbd>1</kbd> <kbd>2</kbd> <kbd>3</kbd> <kbd>4</kbd> <kbd>5</kbd> <kbd>6</kbd> <kbd>7</kbd> <kbd>8</kbd> <kbd>9</kbd> <kbd>0</kbd> <kbd>-</kbd> <kbd>=</kbd> <kbd>delete</kbd>
-</p>
-<p>
+<br>
 <kbd>tab</kbd> <kbd>Q</kbd> <kbd>W</kbd> <kbd>E</kbd> <kbd>R</kbd> <kbd>T</kbd> <kbd>Y</kbd> <kbd>U</kbd> <kbd>I</kbd> <kbd>O</kbd> <kbd>P</kbd> <kbd>[</kbd> <kbd>]</kbd> <kbd>\</kbd>
-</p>
-<p>
+<br>
 <kbd>caps</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> <kbd>F</kbd> <kbd>G</kbd> <kbd>H</kbd> <kbd>J</kbd> <kbd>K</kbd> <kbd>L</kbd> <kbd>;</kbd> <kbd>'</kbd> <kbd>return</kbd>
-</p>
-<p>
+<br>
 <kbd>shift</kbd> <kbd>Z</kbd> <kbd>X</kbd> <kbd>C</kbd> <kbd>V</kbd> <kbd>B</kbd> <kbd>N</kbd> <kbd>M</kbd> <kbd>,</kbd> <kbd>.</kbd> <kbd>/</kbd> <kbd>shift</kbd>
-</p>
 
 <h3 id="details">Details/Summary <a class="anchor" href="#details">#</a></h3>
 

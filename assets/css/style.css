@@ -128,11 +128,11 @@ footer > nav a {
 h1, h2, h3, h4, h5, h6, p {
   overflow-wrap: break-word;
 }
-h1, h2, h3, h4 {
+h1, h2, h3 {
   line-height: 1.1;
   margin: 1.5rem 0 1rem;
 }
-h5, h6, p {
+h4, h5, h6, p {
   margin: 1rem 0 0.5rem;
 }
 h1 {
@@ -272,7 +272,7 @@ section aside {
   border: 1px solid var(--bg-box);
   border-radius: 5px;
   box-shadow: 2px 2px 10px var(--shadow);
-  margin: 1rem 0;
+  margin: 0.5rem 0;
   padding: 1rem;
   width: 100%;
 }
@@ -281,7 +281,7 @@ section aside:hover {
 }
 section aside img {
   float: right;
-  padding: 0 0 0.5rem 0.5;
+  padding: 0 0 0.5rem 0.5rem;
   width: 150px;
 }
 
@@ -307,19 +307,19 @@ details[open] > summary {
 audio, img, picture, video {
   border-radius: 5px;
   height: auto;
+  margin: 0.5rem 0;
   max-width: 100%;
-  margin: 1rem auto;
 }
 
 embed, iframe, object {
   border: 1px solid var(--bg-box);
   border-radius: 5px;
-  margin: 1rem 0;
+  margin: 0.5rem 0;
   width: 100%;
 }
 
 figure {
-  margin: 1rem 0;
+  margin: 0.5rem 0;
   overflow-x: auto;
   text-align: center;
 }

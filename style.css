@@ -365,9 +365,10 @@ a.anchor:focus,
 
 .next {
   float: right;
+  margin: 0;
 }
 .previous {
-  margin-top: 0;
+  margin: 0;
 }
 
 .notice {

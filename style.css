@@ -365,7 +365,9 @@ a.anchor:focus,
 
 .next {
   float: right;
-  padding-bottom: 0.5rem;
+}
+.previous {
+  margin-top: 0;
 }
 
 .notice {

@@ -256,8 +256,7 @@ section aside > :first-child {
 }
 article > :last-child,
 aside > :last-child,
-section aside > :last-child,
-section aside:last-child {
+section aside > :last-child {
   margin-bottom: 0;
 }
 

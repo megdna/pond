@@ -367,7 +367,7 @@ a.anchor:focus,
   fill: currentColor;
   height: 1em;
   width: 1em;
-  vertical-align: -.125em;
+  vertical-align: -0.125em;
 }
 
 .next {

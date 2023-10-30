@@ -365,10 +365,10 @@ a.anchor:focus,
 
 .next {
   float: right;
-  margin: 0;
+  padding: 0 0 0 0.25rem;
 }
 .previous {
-  margin: 0;
+  padding: 0 0.25rem 0 0;
 }
 
 .notice {

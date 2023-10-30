@@ -256,7 +256,8 @@ section aside > :first-child {
 }
 article > :last-child,
 aside > :last-child,
-section aside > :last-child {
+section aside > :last-child,
+section aside:last-child {
   margin-bottom: 0;
 }
 
@@ -281,9 +282,6 @@ section aside img {
   margin: 0;
   padding: 0 0 0.5rem 0.5rem;
   width: 150px;
-}
-section aside:last-child {
-  margin-bottom: 0;
 }
 
 details {

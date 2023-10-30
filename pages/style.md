@@ -158,11 +158,11 @@ The `details` of this element are hidden behind a `summary`.
 
 This is an `audio` sample.
 
-<audio controls src="{{ site.baseurl}}/assets/media/sample.mp3"></audio>
+<audio controls src="{{ site.baseurl}}/media/sample.mp3"></audio>
 
 This is a `video` on loop.
 
-<video controls loop src="{{ site.baseurl}}/assets/media/sample.mp4"></video>
+<video controls loop src="{{ site.baseurl}}/media/sample.mp4"></video>
 
 This is a site inside an `iframe`.
 
@@ -170,7 +170,7 @@ This is a site inside an `iframe`.
 
 This is a pdf inside an `object`.
 
-<object type="application/pdf" data="{{ site.baseurl}}/assets/media/sample.pdf"></object>
+<object type="application/pdf" data="{{ site.baseurl}}/media/sample.pdf"></object>
 
 This is an image inside a `figure` with `figcaption`.
 

@@ -23,6 +23,6 @@ plugins:
 defaults:
   -
     scope:
-      path: "assets/**"
+      path: "media/**"
     values:
       sitemap: false

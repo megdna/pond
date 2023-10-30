@@ -368,7 +368,7 @@ a.anchor:focus,
   padding: 0 0 0 0.25rem;
 }
 .previous {
-  padding: 0 0.25rem 0 0;
+  line-height: normal;
 }
 
 .notice {

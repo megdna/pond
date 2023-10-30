@@ -377,10 +377,10 @@ a.anchor:focus,
 
 .next {
   float: right;
-  padding: 0 0 0 0.25rem;
+  padding: 0 0 0.5rem 0.25rem;
 }
 .previous {
-  line-height: 1.1;
+  padding: 0 0.25rem 0.5rem 0;
 }
 
 .notice {

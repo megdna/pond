@@ -98,9 +98,6 @@ header > nav a[aria-current="page"] {
   cursor: pointer;
 }
 
-main {
-  padding-top: 0.5rem 0;
-}
 main > nav a {
   font-weight: bold;
 	text-decoration: none;
@@ -245,7 +242,7 @@ article {
 aside {
   background-color: var(--bg-box);
   float: right;
-  margin: 0 0 0.5rem 0.5rem;
+  margin: 0.5rem 0 0.5rem 0.5rem;
   width: 40%;
 }
 *[dir="rtl"] aside {

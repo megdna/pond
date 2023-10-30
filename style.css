@@ -380,6 +380,7 @@ a.anchor:focus,
   padding: 0 0 0.5rem 0.25rem;
 }
 .previous {
+  float: left;
   padding: 0 0.25rem 0.5rem 0;
 }
 

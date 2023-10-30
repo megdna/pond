@@ -282,6 +282,9 @@ section aside img {
   padding: 0 0 0.5rem 0.5rem;
   width: 150px;
 }
+section aside:last-child {
+  margin-bottom: 0;
+}
 
 details {
   border: 1px solid var(--border);

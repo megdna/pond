@@ -98,6 +98,9 @@ header > nav a[aria-current="page"] {
   cursor: pointer;
 }
 
+main {
+  padding: 0.5rem 0;
+}
 main > nav a {
   font-weight: bold;
 	text-decoration: none;

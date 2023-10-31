@@ -1,13 +1,13 @@
 # Site Settings
 lang: en
-icon: 🐟
-title: Pond
-description: Welcome to the Small Web
+icon: 🧬
+title: BioShack
+description: Building the Future with Open Science
 
 url: "https://megdna.github.io"
 baseurl: "/pond"
 permalink: :title
-goatcounter: meg
+goatcounter: bio
 
 nav:
   - name: About

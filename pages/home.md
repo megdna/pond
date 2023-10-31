@@ -1,7 +1,7 @@
 ---
 layout: post
 permalink: /
-title: Welcome!
+title: Welcome
 ---
 We are a group of bioneers and citizen scientists building a better future with open science. Join us in hacking our way to a civil society!
 
@@ -18,10 +18,12 @@ We are a group of bioneers and citizen scientists building a better future with 
 <a href="mailto:bio@d8a.org" target="_blank">Send us an email</a>
 </div>
 <div>
-<svg class="icon" viewBox="0 0 448 512"><path d="M0 64C0 46.3 14.3 32 32 32c229.8 0 416 186.2 416 416c0 17.7-14.3 32-32 32s-32-14.3-32-32C384 253.6 226.4 96 32 96C14.3 96 0 81.7 0 64zM0 416a64 64 0 1 1 128 0A64 64 0 1 1 0 416zM32 160c159.1 0 288 128.9 288 288c0 17.7-14.3 32-32 32s-32-14.3-32-32c0-123.7-100.3-224-224-224c-17.7 0-32-14.3-32-32s14.3-32 32-32z"/></svg>
-<a href="{{ site.baseurl }}/feed" target="_blank">Subscribe to our feed</a>
+<svg class="icon" viewBox="0 0 448 512"><path d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zM96 136c0-13.3 10.7-24 24-24c137 0 248 111 248 248c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-110.5-89.5-200-200-200c-13.3 0-24-10.7-24-24zm0 96c0-13.3 10.7-24 24-24c83.9 0 152 68.1 152 152c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-57.4-46.6-104-104-104c-13.3 0-24-10.7-24-24zm0 120a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z"/></svg>
+<a href="{{ site.baseurl }}/feed" target="_blank">Subscribe to feed</a>
 </div>
-<p><b>Elsewhere:</b></p>
+
+#### Follow Us
+
 <div>
 <svg class="icon" viewBox="0 0 512 512"><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg>
 <a href="https://www.facebook.com/bioshack" target="_blank">Facebook</a>
@@ -35,6 +37,6 @@ We are a group of bioneers and citizen scientists building a better future with 
 <a href="https://www.linkedin.com/company/bioshack" target="_blank">LinkedIn</a>
 </div>
 <div>
-<svg class="icon" viewBox="0 0 512 512"><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg>
+<svg class="icon" viewBox="0 0 448 512"><path d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zm297.1 84L257.3 234.6 379.4 396H283.8L209 298.1 123.3 396H75.8l111-126.9L69.7 116h98l67.7 89.5L313.6 116h47.5zM323.3 367.6L153.4 142.9H125.1L296.9 367.6h26.3z"/></svg>
 <a href="https://twitter.com/bioshack" target="_blank">Twitter</a>
 </div>

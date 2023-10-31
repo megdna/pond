@@ -3,7 +3,9 @@ layout: post
 permalink: /
 title: Welcome!
 ---
-View some [styles]({{ site.baseurl}}/style) to add.
+We are a group of bioneers and citizen scientists building the future with open science. Join us in hacking our way to a civil society!
+
+<nav><a href="{{ site.baseurl }}/about">Learn More</a></nav>
 
 ### Contact
 
@@ -19,3 +21,13 @@ View some [styles]({{ site.baseurl}}/style) to add.
 <svg class="icon" viewBox="0 0 640 512"><path d="M96 64c0-17.7 14.3-32 32-32H448h64c70.7 0 128 57.3 128 128s-57.3 128-128 128H480c0 53-43 96-96 96H192c-53 0-96-43-96-96V64zM480 224h32c35.3 0 64-28.7 64-64s-28.7-64-64-64H480V224zM32 416H544c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32z"/></svg>
 <a href="https://ko-fi.com/bioshack" target="_blank">Ko-fi</a>
 </div>
+<div>
+<svg class="icon" viewBox="0 0 448 512"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+<a href="https://www.linkedin.com/company/bioshack" target="_blank">LinkedIn</a>
+</div>
+<div>
+<svg class="icon" viewBox="0 0 512 512"><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg>
+<a href="https://twitter.com/bioshack" target="_blank">Twitter</a>
+</div>
+
+<a href="https://ko-fi.com/bioshack" target="_blank"><img src="https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0" alt="Buy Us a Coffee" border="0" height="35" style="border:0px;height:46px;">

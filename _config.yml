@@ -7,9 +7,14 @@ description: Building the Future with Open Science
 url: "https://megdna.github.io"
 baseurl: "/pond"
 permalink: :title
+
+email: bio@d8a.org
+github: bioshack
 goatcounter: bio
 
 nav:
+  - name: Home
+    link: /
   - name: About
     link: /about
   - name: Posts

@@ -101,11 +101,11 @@ header > nav a[aria-current="page"] {
 main {
   padding: 0.5rem 0;
 }
-nav a {
+main > nav a {
   font-weight: bold;
 	text-decoration: none;
 }
-nav a:before {
+main > nav a:before {
 	content: " → ";
 }
 

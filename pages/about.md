@@ -17,4 +17,4 @@ It was founded by <a href="https://megdna.github.io" target="_blank">Megan</a> i
     <a href="https://www.linkedin.com/company/bioshack" target="_blank">LinkedIn</a>
     <a href="https://twitter.com/bioshack" target="_blank">Twitter/X</a>
   </nav>
-</details> 
+</details>

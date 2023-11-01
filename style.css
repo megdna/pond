@@ -20,7 +20,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
-	:root {
+  :root {
     --bg: #001C30;
     --bg-box: #003B5E;
     --shadow: #003B5E;
@@ -36,7 +36,7 @@
 }
 
 html {
-	font-family: var(--sans-font);
+  font-family: var(--sans-font);
   scroll-behavior: smooth;
 }
 
@@ -103,10 +103,11 @@ main {
 }
 main > nav a {
   font-weight: bold;
-	text-decoration: none;
+  margin: 0.5rem 0;
+  text-decoration: none;
 }
 main > nav a:before {
-	content: " → ";
+  content: " → ";
 }
 
 body > footer {

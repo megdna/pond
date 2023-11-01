@@ -9,10 +9,12 @@ It was founded by <a href="https://megdna.github.io" target="_blank">Megan</a> i
 
 <details>
   <summary>Links</summary>
-* <a href="mailto:bio@d8a.org" target="_blank">Email</a>
-* <a href="https://www.facebook.com/bioshack" target="_blank">Facebook</a>
-* <a href="https://github.com/bioshack" target="_blank">GitHub</a>
-* <a href="https://ko-fi.com/bioshack" target="_blank">Ko-fi</a>
-* <a href="https://www.linkedin.com/company/bioshack" target="_blank">LinkedIn</a>
-* <a href="https://twitter.com/bioshack" target="_blank">Twitter/X</a>
+  <nav>
+    <a href="mailto:bio@d8a.org" target="_blank">Email</a>
+    <a href="https://www.facebook.com/bioshack" target="_blank">Facebook</a>
+    <a href="https://github.com/bioshack" target="_blank">GitHub</a>
+    <a href="https://ko-fi.com/bioshack" target="_blank">Ko-fi</a>
+    <a href="https://www.linkedin.com/company/bioshack" target="_blank">LinkedIn</a>
+    <a href="https://twitter.com/bioshack" target="_blank">Twitter/X</a>
+  </nav>
 </details> 

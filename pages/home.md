@@ -5,7 +5,7 @@ title: Welcome
 ---
 We are a group of bioneers and citizen scientists building a better future with open science. Join us in hacking our way to a civil society!
 
-<nav><a href="{{ site.baseurl }}/about">Learn More</a></nav>
+<nav>→ <a href="{{ site.baseurl }}/about">Learn More</a></nav>
 
 ### Contact Us
 

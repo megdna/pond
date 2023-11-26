@@ -9,6 +9,9 @@ baseurl: "/pond"
 github: bioshack
 permalink: :title
 
+analytics: 12943321
+security: 34faee4b
+
 nav:
   - name: Home
     link: /

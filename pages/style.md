@@ -8,14 +8,14 @@ sitemap: false
 <h3 id="nav">Navigation <a class="anchor" href="#nav">#</a></h3>
 
 <nav>
-<a href="#article">→ Article</a>
-<a href="#aside">→ Aside</a>
-<a href="#blockquote">→ Blockquote</a>
-<a href="#code">→ Code</a>
-<a href="#details">→ Details</a>
-<a href="#lists">→ Lists</a>
-<a href="#media">→ Media</a>
-<a href="#table">→ Table</a>
+<a href="#article">Article</a>
+<a href="#aside">Aside</a>
+<a href="#blockquote">Blockquote</a>
+<a href="#code">Code</a>
+<a href="#details">Details</a>
+<a href="#lists">Lists</a>
+<a href="#media">Media</a>
+<a href="#table">Table</a>
 </nav>
 
 <h3 id="article">Article <a class="anchor" href="#article">#</a></h3>

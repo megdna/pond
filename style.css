@@ -106,6 +106,9 @@ main > nav a {
   font-weight: bold;
   text-decoration: none;
 }
+main > nav a:before {
+  content: " → ";
+}
 
 body > footer {
   border-top: 1px solid var(--border);  
@@ -179,9 +182,6 @@ blockquote {
 cite, dd {
   color: var(--meta);
   font-size: 0.9rem;
-}
-dd:before {
-  content: " → ";
 }
 
 code, mark {

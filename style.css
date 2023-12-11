@@ -56,7 +56,7 @@ body > * {
 body > header {
   background-color: var(--bg-box);
   border-bottom: 1px solid var(--border);
-  padding: 0 0.5rem 0.5rem;
+  padding: 0.5rem;
   text-align: center;
   grid-column: 1 / -1;
 }
@@ -99,9 +99,6 @@ header > nav a[aria-current="page"] {
   cursor: pointer;
 }
 
-main {
-  padding: 0.5rem 0;
-}
 main > nav a {
   font-weight: bold;
   text-decoration: none;

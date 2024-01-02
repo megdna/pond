@@ -6,11 +6,10 @@ description: Building the Future with Open Science
 
 url: "https://megdna.github.io"
 baseurl: "/pond"
-github: bioshack
 permalink: :title
 
-analytics: 12943321
-security: 34faee4b
+github: bioshack
+goatcounter: bio
 
 nav:
   - name: Home

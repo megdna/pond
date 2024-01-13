@@ -100,7 +100,7 @@ header > nav a[aria-current="page"] {
 }
 
 main {
-  padding: 0 0 0.5rem;
+  padding: 0;
 }
 main nav {
   margin: 1rem 0 0.5rem;

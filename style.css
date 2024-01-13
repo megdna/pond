@@ -383,6 +383,7 @@ a.anchor:focus,
 
 .next {
   float: right;
+  text-decoration: none;
 }
 
 .notice {

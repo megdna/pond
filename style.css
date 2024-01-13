@@ -136,7 +136,7 @@ h1, h2, h3, h4 {
   line-height: 1.1;
   margin: 1.5rem 0 1rem;
 }
-h5, h6, p, ol, ul {
+h5, h6, p {
   margin: 1rem 0 0.5rem;
 }
 h1 {
@@ -157,8 +157,9 @@ h5 {
 h6 {
   font-size: 0.96rem;
 }
-li {
-  line-height: 1.5;
+ol, ul {
+  line-height: 1.75;
+  margin: 0.5rem 0;
 }
 
 a {

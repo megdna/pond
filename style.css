@@ -289,9 +289,9 @@ section aside:hover {
 }
 section aside img {
   float: right;
+  height: 100px;
   margin: 0;
   padding: 0 0 0.5rem 0.5rem;
-  width: 100px;
 }
 
 details {
@@ -381,9 +381,8 @@ a.anchor:focus,
   vertical-align: -0.125em;
 }
 
-.next a {
+.next {
   float: right;
-  text-decoration: none;
 }
 
 .notice {

@@ -104,6 +104,7 @@ main {
 }
 main > nav a {
   font-weight: bold;
+  margin: 1rem 0 0.5rem;
   text-decoration: none;
 }
 main > nav a:before {
@@ -153,6 +154,9 @@ h5 {
 }
 h6 {
   font-size: 0.96rem;
+}
+ol, ul {
+  line-height: 2;
 }
 
 a {

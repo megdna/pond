@@ -3,7 +3,7 @@ layout: default
 ---
 <h2>{{ page.title }}</h2>
 {% if page.description %}<div class="notice">{{ page.description }}</div>{% endif %}
-{% if page.image.show == "true" %}<figure><img alt="{{ page.image.alt }}" src="{{ page.image.url | prepend: site.baseurl | prepend: site.url }}"><figcaption>{{ page.image.caption }}</figcaption></figure>{% endif %}
+{% if page.show == "true" %}<figure><img alt="{{ page.alt }}" src="{{ page.image | prepend: site.baseurl | prepend: site.url }}"><figcaption>{{ page.caption }}</figcaption></figure>{% endif %}
 {{ content }}
 {% if page.date %}<cite>Updated on {{page.date | date: "%A, %B %d, %Y"}}</cite><hr>{% endif %}
 {% if page.previous.url %}&laquo; <a href="{{ page.previous.url | prepend: site.baseurl | prepend: site.url }}">{{ page.previous.title }}</a>{% endif %}

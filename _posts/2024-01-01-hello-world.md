@@ -8,6 +8,7 @@ image:
     caption:
     show:
     url:
+published:
 sitemap:
 ---
 Add some content here.

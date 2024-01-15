@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink:
+permalink: /style
 title: Style Demo
 description: This is a demonstration of the elements in CSS.
 sitemap: false

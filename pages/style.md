@@ -41,6 +41,7 @@ This is an `article` showing some basic styling.
 <p><abbr title="Uniform Resource Locator">URL</abbr> Abbreviated</p>
 <p><mark>Highlighted</mark></p>
 <p><mark>Highlighted <a href="https://example.com" target="_blank">URL</a></mark></p>
+<p><button><a href="https://example.com" target="_blank">Button</a></button></p>
 </article>
 
 <h3 id="aside">Aside <a class="anchor" href="#aside">#</a></h3>

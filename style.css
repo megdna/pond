@@ -190,7 +190,7 @@ blockquote {
 button a,
 button a:visited {
   background-color: var(--bg-box);
-  border: 1px solid var(--border);
+  border-color: var(--border);
   color: var(--border);
   text-decoration: none;
 }
@@ -208,6 +208,7 @@ cite, dd {
 code, mark {
   background-color: var(--bg-box);
   border-radius: 5px;
+  color: var(--text);
   padding: 2px 5px;
 }
 code, kbd, pre, samp {

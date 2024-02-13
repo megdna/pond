@@ -187,14 +187,13 @@ blockquote {
   padding: 0 1rem;
 }
 
-button a,
-button a:visited {
+button {
   background-color: var(--bg-box);
   border-color: var(--border);
   color: var(--border);
   text-decoration: none;
 }
-button a:hover {
+button:hover {
   background-color: var(--shadow);
   border-color: var(--link);
   color: var(--link);

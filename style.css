@@ -187,12 +187,18 @@ blockquote {
   padding: 0 1rem;
 }
 
-button {
+button a,
+button a:visited {
   background-color: var(--bg-box);
   border: 1px solid var(--border);
-}
-button a {
+  border-radius: 5px;
+  color: var(--border);
   text-decoration: none;
+}
+button a:hover {
+  background-color: var(--shadow);
+  border-color: var(--link);
+  color: var(--link);
 }
 
 cite, dd {
@@ -203,7 +209,6 @@ cite, dd {
 code, mark {
   background-color: var(--bg-box);
   border-radius: 5px;
-  color: var(--text);
   padding: 2px 5px;
 }
 code, kbd, pre, samp {

@@ -191,7 +191,6 @@ button a,
 button a:visited {
   background-color: var(--bg-box);
   border: 1px solid var(--border);
-  border-radius: 5px;
   color: var(--border);
   text-decoration: none;
 }

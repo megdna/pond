@@ -192,6 +192,9 @@ button {
   border: 1px solid var(--border);
   border-radius: 5px;
 }
+button:hover {
+  background-color: var(--shadow);
+}
 button a {
   text-decoration: none;
 }

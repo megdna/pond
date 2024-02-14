@@ -199,7 +199,6 @@ button:hover {
 button a {
   text-decoration: none;
 }
-
 button, cite, dd {
   color: var(--meta);
   font-size: 0.9rem;

@@ -191,7 +191,6 @@ button {
   background-color: var(--bg-box);
   border: 1px solid var(--link);
   border-radius: 5px;
-  margin: 1rem 0;
 }
 button:hover {
   background-color: var(--shadow);
@@ -204,6 +203,7 @@ button a {
 button, cite, dd {
   color: var(--meta);
   font-size: 0.9rem;
+  margin: 0.5rem 0;
 }
 
 code, mark {

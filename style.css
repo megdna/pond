@@ -202,7 +202,6 @@ button a {
 button, cite, dd {
   color: var(--meta);
   font-size: 0.9rem;
-  padding: 1.5rem 0;
 }
 
 code, mark {

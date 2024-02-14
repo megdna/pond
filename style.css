@@ -200,7 +200,7 @@ button a {
   text-decoration: none;
 }
 
-cite, dd {
+button, cite, dd {
   color: var(--meta);
   font-size: 0.9rem;
 }

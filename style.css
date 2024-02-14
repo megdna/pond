@@ -189,14 +189,11 @@ blockquote {
 
 button {
   background-color: var(--bg-box);
-  border-color: var(--border);
-  color: var(--border);
-  text-decoration: none;
+  border: 1px solid var(--border);
+  border-radius: 5px;
 }
-button:hover {
-  background-color: var(--shadow);
-  border-color: var(--link);
-  color: var(--link);
+button a {
+  text-decoration: none;
 }
 
 cite, dd {

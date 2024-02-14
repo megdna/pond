@@ -191,6 +191,7 @@ button {
   background-color: var(--bg-box);
   border: 1px solid var(--link);
   border-radius: 5px;
+  margin: 0.5rem 0;
 }
 button:hover {
   background-color: var(--shadow);

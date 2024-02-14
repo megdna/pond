@@ -237,7 +237,7 @@ pre code {
   
 hr {
 	border: 1px dashed var(--border);
-  margin: 1rem auto;
+  margin: 1.5rem 0 1rem;
 }
 
 sub, sup {

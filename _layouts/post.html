@@ -5,6 +5,6 @@ layout: default
 {% if page.description %}<div class="notice">{{ page.description }}</div>{% endif %}
 {% if page.show %}<figure><img alt="{{ page.alt }}" src="{{ page.image | prepend: site.baseurl | prepend: site.url }}"><figcaption>{{ page.caption }}</figcaption></figure>{% endif %}
 {{ content }}
-{% if page.date %}<cite>Updated on {{page.date | date: "%B %d, %Y"}}</cite><div class="next"><button><a href="https://github.com/{{ site.github }}" target="_blank">Discuss</a></button></div><br><br><hr>{% endif %}
+{% if page.date %}<p><cite>Updated on {{page.date | date: "%B %d, %Y"}}</cite></p><div class="next"><button><a href="https://github.com/{{ site.github }}" target="_blank">Discuss</a></button></div><hr>{% endif %}
 {% if page.previous.url %}&laquo; <a href="{{ page.previous.url | prepend: site.baseurl | prepend: site.url }}">{{ page.previous.title }}</a>{% endif %}
 {% if page.next.url %}<div class="next"><a href="{{ page.next.url | prepend: site.baseurl | prepend: site.url }}">{{ page.next.title }}</a> &raquo;</div>{% endif %}

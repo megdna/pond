@@ -16,3 +16,8 @@
   <img src="https://{{ site.goatcounter }}.goatcounter.com/count?p=/ns">
 </noscript>
 {% endif %}
+
+{% if site.tinylytics %}
+<script src="https://tinylytics.app/embed/{{ site.tinylytics }}.js?hits&kudos=💙"></script>
+<span class="tinylytics_hits"></span><button class="tinylytics_kudos"></button>
+{% endif %}

@@ -196,17 +196,7 @@ button:hover {
   background-color: var(--shadow);
   border: 1px solid var(--border);
 }
-button,
-button a,
-button a:active,
-button a:hover,
-button a:visited {
-  color: var(--meta);
-  font-size: 0.9rem;
-  text-decoration: none;
-}
-
-cite, dd {
+button, cite, dd {
   color: var(--meta);
   font-size: 0.9rem;
 }

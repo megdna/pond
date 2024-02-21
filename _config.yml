@@ -13,10 +13,10 @@ goatcounter: bio
 tinylytics: nCLXHefo-N1GktQzm6ic
 
 nav:
-  - name: Home
-    link: /
   - name: About
     link: /about
+  - name: Contact
+    link: /contact
   - name: Posts
     link: /posts
   

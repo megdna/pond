@@ -1,8 +1,7 @@
 ---
 layout: post
-title: BioShack
-description: BioShack is now a member of the D8A Institute!
-image: /media/bio.png
+permalink: /contact
+title: Contact
 ---
 Stay in touch with us at <a href="https://d8a.org" target="_blank">d8a.org</a> or any of the links below:
 
@@ -19,3 +18,6 @@ We are also exploring the following federated and open source alternatives:
 - <a href="https://blogs.fediscience.org/bio" target="_blank">FediScience</a> (WordPress)
 - <a href="https://fe.disroot.org/@bio" target="_blank">FEDisroot</a> (Akkoma)
 - <a href="https://opencollective.com/bio" target="_blank">Open Collective</a>
+
+{{ site.title }} has had <mark><span class="tinylytics_hits">X</span></mark> visits since March 2024.
+<p class="tinylytics_countries"></p>

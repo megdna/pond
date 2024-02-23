@@ -7,4 +7,4 @@ title: About
 
 The collective was founded by <a href="https://megdna.github.io" target="_blank">Megan</a> in early 2011 at the beginning of the open science movement and was one of the first biohackerspaces in the San Francisco Bay Area. Many of the projects here came out of that original idea accelerator and members of this “citizen science brigade” are still active in the <abbr title="Free Open Source Software">FOSS</abbr> community.
 
-<nav><a href="{{ site.baseurl }}/posts">See What's New</a></nav>
+<nav><a href="{{ site.baseurl }}/contact">Connect with Us</a></nav>

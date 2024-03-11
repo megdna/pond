@@ -24,4 +24,4 @@ We are a group of bioneers and citizen scientists building a better future with 
 </li>
 </ul>
 
-<cite>Made with 💙 by a human (not robot). No AI bots allowed.</cite>
+<cite>Made with 💙  by a human. No AI bots allowed.</cite>

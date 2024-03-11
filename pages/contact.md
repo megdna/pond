@@ -7,13 +7,13 @@ title: Contact
 
 If you like what we are doing, please consider supporting our <a href="{{ site.baseurl }}/posts">projects</a>. Any little bit helps since we are all volunteers at BioShack 🙂
 
-<a href='https://ko-fi.com/Z8Z2CP38V' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+<a href='https://ko-fi.com/Z8Z2CP38V' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi5.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
 <h3 id="email">Email <a class="anchor" href="#email">#</a></h3>
 
 Send us a message if you want to get involved or just say hello 👋
 
-<code>b i o @ d 8 a . o r g</code> (minus the spaces)
+<mark>b i o @ d 8 a . o r g</mark> (minus the spaces)
 
 <h3 id="social">Social <a class="anchor" href="#social">#</a></h3>
 

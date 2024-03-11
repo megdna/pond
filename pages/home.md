@@ -5,7 +5,7 @@ title: Welcome
 ---
 We are a group of bioneers and citizen scientists building a better future with open science. Join us in hacking our way to a civil society!
 
-<nav><a href="/about">Learn More</a></nav>
+<nav><a href="{{ site.baseurl }}/about">Learn More</a></nav>
 
 ### Say Hello
 
@@ -24,4 +24,4 @@ We are a group of bioneers and citizen scientists building a better future with 
 </li>
 </ul>
 
-Made with 💙 by a human (not robot). No AI bots allowed.
+<cite>Made with 💙 by a human (not robot). No AI bots allowed.</cite>

@@ -7,7 +7,7 @@ title: Contact
 
 If you like what we are doing, please consider supporting our <a href="{{ site.baseurl }}/posts">projects</a>. Any little bit helps since we are all volunteers at BioShack 🙂
 
-<a href="https://ko-fi.com/Z8Z2CP38V" target="_blank"><button><img height="36" src="{{ site.baseurl }}/media/kofi.gif"> Support us on Ko-fi</button></a>
+<a href="https://ko-fi.com/Z8Z2CP38V" target="_blank"><button><img src="{{ site.baseurl }}/media/kofi.gif" height="36" width="36"> Support us on Ko-fi</button></a>
 
 <h3 id="email">Email <a class="anchor" href="#email">#</a></h3>
 

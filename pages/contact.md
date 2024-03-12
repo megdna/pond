@@ -13,11 +13,11 @@ If you like what we are doing, please consider supporting our <a href="{{ site.b
 
 Send us a message if you want to get involved or just say hello 👋
 
-<mark>b i o @ d 8 a . o r g</mark> (minus the spaces)
+<mark>✉️ b i o @ d 8 a . o r g</mark> (minus the spaces)
 
 <h3 id="social">Social <a class="anchor" href="#social">#</a></h3>
 
-You can also find us at any of the networks below:
+You can also find us at any of the networks below 🌐
 
 - <a href="https://bsky.app/profile/bioshack.bsky.social" target="_blank">Bluesky</a>
 - <a href="https://www.facebook.com/bioshack" target="_blank">Facebook</a>

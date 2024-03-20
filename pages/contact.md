@@ -2,6 +2,7 @@
 layout: post
 permalink: /contact
 title: Contact
+sitemap: false
 ---
 <h3 id="donate">Donate <a class="anchor" href="#donate">#</a></h3>
 
